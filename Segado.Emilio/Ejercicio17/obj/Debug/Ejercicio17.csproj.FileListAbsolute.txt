@@ -1,0 +1,21 @@
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio17\bin\Debug\Ejercicio17.exe.config
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio17\bin\Debug\Ejercicio17.exe
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio17\bin\Debug\Ejercicio17.pdb
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio17\obj\Debug\Ejercicio17.csprojResolveAssemblyReference.cache
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio17\obj\Debug\Ejercicio17.csproj.CoreCompileInputs.cache
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio17\obj\Debug\Ejercicio17.exe
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio17\obj\Debug\Ejercicio17.pdb
+D:\Segado.Emilio\Ejercicio17\bin\Debug\Ejercicio17.exe.config
+D:\Segado.Emilio\Ejercicio17\obj\Debug\Ejercicio17.exe
+D:\Segado.Emilio\Ejercicio17\obj\Debug\Ejercicio17.pdb
+D:\Segado.Emilio\Ejercicio17\bin\Debug\Ejercicio17.exe
+D:\Segado.Emilio\Ejercicio17\bin\Debug\Ejercicio17.pdb
+D:\Segado.Emilio\Ejercicio17\bin\Debug\mscorlib.dll
+D:\Segado.Emilio\Ejercicio17\bin\Debug\System.Net.Http.dll
+D:\Segado.Emilio\Ejercicio17\bin\Debug\System.Net.Http.xml
+D:\Segado.Emilio\Ejercicio17\bin\Debug\normidna.nlp
+D:\Segado.Emilio\Ejercicio17\bin\Debug\normnfc.nlp
+D:\Segado.Emilio\Ejercicio17\bin\Debug\normnfd.nlp
+D:\Segado.Emilio\Ejercicio17\bin\Debug\normnfkc.nlp
+D:\Segado.Emilio\Ejercicio17\bin\Debug\normnfkd.nlp
+D:\Segado.Emilio\Ejercicio17\obj\Debug\Ejercicio17.csprojResolveAssemblyReference.cache

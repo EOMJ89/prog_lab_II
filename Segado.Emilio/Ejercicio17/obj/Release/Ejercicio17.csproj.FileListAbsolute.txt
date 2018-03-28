@@ -1,0 +1,14 @@
+D:\Segado.Emilio\Ejercicio17\bin\Release\Ejercicio17.exe.config
+D:\Segado.Emilio\Ejercicio17\bin\Release\Ejercicio17.exe
+D:\Segado.Emilio\Ejercicio17\bin\Release\Ejercicio17.pdb
+D:\Segado.Emilio\Ejercicio17\bin\Release\mscorlib.dll
+D:\Segado.Emilio\Ejercicio17\bin\Release\System.Net.Http.dll
+D:\Segado.Emilio\Ejercicio17\bin\Release\System.Net.Http.xml
+D:\Segado.Emilio\Ejercicio17\bin\Release\normidna.nlp
+D:\Segado.Emilio\Ejercicio17\bin\Release\normnfc.nlp
+D:\Segado.Emilio\Ejercicio17\bin\Release\normnfd.nlp
+D:\Segado.Emilio\Ejercicio17\bin\Release\normnfkc.nlp
+D:\Segado.Emilio\Ejercicio17\bin\Release\normnfkd.nlp
+D:\Segado.Emilio\Ejercicio17\obj\Release\Ejercicio17.csprojResolveAssemblyReference.cache
+D:\Segado.Emilio\Ejercicio17\obj\Release\Ejercicio17.exe
+D:\Segado.Emilio\Ejercicio17\obj\Release\Ejercicio17.pdb
