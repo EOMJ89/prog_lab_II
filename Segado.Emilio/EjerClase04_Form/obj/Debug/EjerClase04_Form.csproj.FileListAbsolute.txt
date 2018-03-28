@@ -9,3 +9,16 @@ D:\Segado.Emilio\EjerClase04_Form\bin\Debug\Cosa.dll
 D:\Segado.Emilio\EjerClase04_Form\bin\Debug\Cosa.pdb
 D:\Segado.Emilio\EjerClase04_Form\obj\Debug\EjerClase04_Form.exe
 D:\Segado.Emilio\EjerClase04_Form\obj\Debug\EjerClase04_Form.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase04_Form\bin\Debug\EjerClase04_Form.exe.config
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase04_Form\bin\Debug\EjerClase04_Form.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase04_Form\bin\Debug\EjerClase04_Form.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase04_Form\bin\Debug\Cosa.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase04_Form\bin\Debug\Cosa.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase04_Form\obj\Debug\EjerClase04_Form.Form1.resources
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase04_Form\obj\Debug\EjerClase04_Form.Properties.Resources.resources
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase04_Form\obj\Debug\EjerClase04_Form.csproj.GenerateResource.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase04_Form\obj\Debug\EjerClase04_Form.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase04_Form\obj\Debug\EjerClase04_Form.csproj.CopyComplete
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase04_Form\obj\Debug\EjerClase04_Form.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase04_Form\obj\Debug\EjerClase04_Form.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase04_Form\obj\Debug\EjerClase04_Form.csprojResolveAssemblyReference.cache

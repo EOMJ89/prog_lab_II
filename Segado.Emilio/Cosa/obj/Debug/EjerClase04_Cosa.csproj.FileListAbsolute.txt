@@ -2,3 +2,8 @@ D:\Segado.Emilio\Cosa\bin\Debug\Cosa.dll
 D:\Segado.Emilio\Cosa\bin\Debug\Cosa.pdb
 D:\Segado.Emilio\Cosa\obj\Debug\Cosa.dll
 D:\Segado.Emilio\Cosa\obj\Debug\Cosa.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Cosa\bin\Debug\Cosa.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Cosa\bin\Debug\Cosa.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Cosa\obj\Debug\EjerClase04_Cosa.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Cosa\obj\Debug\Cosa.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Cosa\obj\Debug\Cosa.pdb

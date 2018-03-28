@@ -46,7 +46,7 @@ namespace CosaSpace
         public string Mostrar()
         {
             string cadena1 = "";
-            cadena1 += this.fecha;
+            cadena1 += this.fecha.ToShortDateString();
             cadena1 += "\n";
             cadena1 += this.entero;
             cadena1 += "\n";
