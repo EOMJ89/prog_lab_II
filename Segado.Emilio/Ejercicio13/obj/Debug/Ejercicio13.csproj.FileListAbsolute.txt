@@ -1,0 +1,14 @@
+C:\Riot Games\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio13\bin\Debug\Ejercicio13.exe.config
+C:\Riot Games\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio13\bin\Debug\Ejercicio13.exe
+C:\Riot Games\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio13\bin\Debug\Ejercicio13.pdb
+C:\Riot Games\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio13\obj\Debug\Ejercicio13.csprojResolveAssemblyReference.cache
+C:\Riot Games\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio13\obj\Debug\Ejercicio13.csproj.CoreCompileInputs.cache
+C:\Riot Games\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio13\obj\Debug\Ejercicio13.exe
+C:\Riot Games\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio13\obj\Debug\Ejercicio13.pdb
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio13\bin\Debug\Ejercicio13.exe.config
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio13\bin\Debug\Ejercicio13.exe
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio13\bin\Debug\Ejercicio13.pdb
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio13\obj\Debug\Ejercicio13.csprojResolveAssemblyReference.cache
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio13\obj\Debug\Ejercicio13.csproj.CoreCompileInputs.cache
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio13\obj\Debug\Ejercicio13.exe
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio13\obj\Debug\Ejercicio13.pdb
