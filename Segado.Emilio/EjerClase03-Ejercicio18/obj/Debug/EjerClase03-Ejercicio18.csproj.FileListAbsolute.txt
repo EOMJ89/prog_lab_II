@@ -1,0 +1,13 @@
+D:\Segado.Emilio\EjerClase03-Ejercicio18\bin\Debug\EjerClase03-Ejercicio18.exe.config
+D:\Segado.Emilio\EjerClase03-Ejercicio18\obj\Debug\EjerClase03-Ejercicio18.csprojResolveAssemblyReference.cache
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase03-Ejercicio18\bin\Debug\EjerClase03-Ejercicio18.exe.config
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase03-Ejercicio18\bin\Debug\EjerClase03-Ejercicio18.exe
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase03-Ejercicio18\bin\Debug\EjerClase03-Ejercicio18.pdb
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase03-Ejercicio18\obj\Debug\EjerClase03-Ejercicio18.csprojResolveAssemblyReference.cache
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase03-Ejercicio18\obj\Debug\EjerClase03-Ejercicio18.csproj.CoreCompileInputs.cache
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase03-Ejercicio18\obj\Debug\EjerClase03-Ejercicio18.exe
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase03-Ejercicio18\obj\Debug\EjerClase03-Ejercicio18.pdb
+D:\Segado.Emilio\EjerClase03-Ejercicio18\obj\Debug\EjerClase03-Ejercicio18.exe
+D:\Segado.Emilio\EjerClase03-Ejercicio18\obj\Debug\EjerClase03-Ejercicio18.pdb
+D:\Segado.Emilio\EjerClase03-Ejercicio18\bin\Debug\EjerClase03-Ejercicio18.exe
+D:\Segado.Emilio\EjerClase03-Ejercicio18\bin\Debug\EjerClase03-Ejercicio18.pdb

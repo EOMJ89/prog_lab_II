@@ -1,0 +1,4 @@
+D:\Segado.Emilio\Cosa\bin\Debug\Cosa.dll
+D:\Segado.Emilio\Cosa\bin\Debug\Cosa.pdb
+D:\Segado.Emilio\Cosa\obj\Debug\Cosa.dll
+D:\Segado.Emilio\Cosa\obj\Debug\Cosa.pdb

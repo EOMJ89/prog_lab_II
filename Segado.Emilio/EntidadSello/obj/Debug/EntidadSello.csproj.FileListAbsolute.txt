@@ -1,0 +1,15 @@
+D:\Prog-Lab II\Segado.Emilio\EntidadSello\bin\Debug\EntidadSello.dll
+D:\Prog-Lab II\Segado.Emilio\EntidadSello\bin\Debug\EntidadSello.pdb
+D:\Prog-Lab II\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.dll
+D:\Prog-Lab II\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.pdb
+C:\Riot Games\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\bin\Debug\EntidadSello.dll
+C:\Riot Games\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\bin\Debug\EntidadSello.pdb
+C:\Riot Games\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.csproj.CoreCompileInputs.cache
+C:\Riot Games\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.dll
+C:\Riot Games\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.pdb
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\bin\Debug\EntidadSello.dll
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\bin\Debug\EntidadSello.pdb
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.csprojResolveAssemblyReference.cache
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.csproj.CoreCompileInputs.cache
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.dll
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.pdb

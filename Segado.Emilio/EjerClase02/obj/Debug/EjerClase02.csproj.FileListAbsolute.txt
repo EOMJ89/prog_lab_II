@@ -1,0 +1,21 @@
+D:\Prog-Lab II\Segado.Emilio\EjerClase02\bin\Debug\EjerClase02.exe.config
+D:\Prog-Lab II\Segado.Emilio\EjerClase02\bin\Debug\EjerClase02.exe
+D:\Prog-Lab II\Segado.Emilio\EjerClase02\bin\Debug\EjerClase02.pdb
+D:\Prog-Lab II\Segado.Emilio\EjerClase02\obj\Debug\EjerClase02.csprojResolveAssemblyReference.cache
+D:\Prog-Lab II\Segado.Emilio\EjerClase02\obj\Debug\EjerClase02.exe
+D:\Prog-Lab II\Segado.Emilio\EjerClase02\obj\Debug\EjerClase02.pdb
+D:\Prog-Lab II\Segado.Emilio\EjerClase02\bin\Debug\EntidadSello.dll
+D:\Prog-Lab II\Segado.Emilio\EjerClase02\bin\Debug\EntidadSello.pdb
+D:\Segado.Emilio\EjerClase02\bin\Debug\EjerClase02.exe.config
+D:\Segado.Emilio\EjerClase02\obj\Debug\EjerClase02.exe
+D:\Segado.Emilio\EjerClase02\obj\Debug\EjerClase02.pdb
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase02\bin\Debug\EjerClase02.exe.config
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase02\bin\Debug\EjerClase02.exe
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase02\bin\Debug\EjerClase02.pdb
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase02\bin\Debug\EntidadSello.dll
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase02\bin\Debug\EntidadSello.pdb
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase02\obj\Debug\EjerClase02.csprojResolveAssemblyReference.cache
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase02\obj\Debug\EjerClase02.csproj.CoreCompileInputs.cache
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase02\obj\Debug\EjerClase02.csproj.CopyComplete
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase02\obj\Debug\EjerClase02.exe
+E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase02\obj\Debug\EjerClase02.pdb

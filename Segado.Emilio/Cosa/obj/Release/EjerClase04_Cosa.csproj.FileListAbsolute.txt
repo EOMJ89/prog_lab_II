@@ -1,0 +1,4 @@
+D:\Segado.Emilio\Cosa\bin\Release\Cosa.dll
+D:\Segado.Emilio\Cosa\bin\Release\Cosa.pdb
+D:\Segado.Emilio\Cosa\obj\Release\Cosa.dll
+D:\Segado.Emilio\Cosa\obj\Release\Cosa.pdb
