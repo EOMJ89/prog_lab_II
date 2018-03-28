@@ -1,0 +1,8 @@
+D:\Segado.Emilio\EjerClase04\bin\Debug\EjerClase04.exe.config
+D:\Segado.Emilio\EjerClase04\bin\Debug\EjerClase04.exe
+D:\Segado.Emilio\EjerClase04\bin\Debug\EjerClase04.pdb
+D:\Segado.Emilio\EjerClase04\bin\Debug\Cosa.dll
+D:\Segado.Emilio\EjerClase04\bin\Debug\Cosa.pdb
+D:\Segado.Emilio\EjerClase04\obj\Debug\EjerClase04.csprojResolveAssemblyReference.cache
+D:\Segado.Emilio\EjerClase04\obj\Debug\EjerClase04.exe
+D:\Segado.Emilio\EjerClase04\obj\Debug\EjerClase04.pdb
