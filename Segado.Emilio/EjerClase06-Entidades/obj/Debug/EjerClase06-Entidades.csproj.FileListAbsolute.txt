@@ -2,3 +2,8 @@ D:\Segado.Emilio\EjerClase06-Entidades\bin\Debug\EjerClase06-Entidades.dll
 D:\Segado.Emilio\EjerClase06-Entidades\bin\Debug\EjerClase06-Entidades.pdb
 D:\Segado.Emilio\EjerClase06-Entidades\obj\Debug\EjerClase06-Entidades.dll
 D:\Segado.Emilio\EjerClase06-Entidades\obj\Debug\EjerClase06-Entidades.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Entidades\bin\Debug\EjerClase06-Entidades.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Entidades\bin\Debug\EjerClase06-Entidades.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Entidades\obj\Debug\EjerClase06-Entidades.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Entidades\obj\Debug\EjerClase06-Entidades.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Entidades\obj\Debug\EjerClase06-Entidades.pdb

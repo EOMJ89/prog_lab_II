@@ -34,17 +34,28 @@ namespace EjerClase06_Exe
 
             Console.WriteLine((string)paleta1);
             Console.WriteLine(paleta1 == tempera1);
-
+           
+            //Sumar Tempera a Paleta
             paleta1 += tempera2;
             Console.WriteLine((string)paleta1);
             paleta1 += tempera3;
             Console.WriteLine((string)paleta1 + "\n");
 
-            paleta1 -= tempera1;
-            Console.WriteLine((string)paleta1);
-            paleta1 -= tempera2;
-            Console.WriteLine((string)paleta1);
+            ////Restar Tempera a Paleta
+            //paleta1 -= tempera1;
+            //Console.WriteLine((string)paleta1);
+            //paleta1 -= tempera2;
+            //Console.WriteLine((string)paleta1);
 
+            //Sumar Paleta a Paleta
+            paleta2 += tempera1;
+            Console.WriteLine((string)paleta2);
+            paleta2 += paleta1;
+            Console.WriteLine((string)paleta2 + "\n");
+
+
+            paleta2 -= paleta1;
+            Console.WriteLine((string)paleta2 + "\n");
             Console.ReadLine();
         }
     }

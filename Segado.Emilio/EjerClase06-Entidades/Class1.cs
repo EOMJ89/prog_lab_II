@@ -202,7 +202,7 @@ namespace EjerClase06_Entidades
 
         public static Paleta operator +(Paleta paleta1, Tempera tempera1)
         {
-            if (((object)tempera1) != null && ((object)paleta1) !=null)
+            if (((object)tempera1) != null && ((object)paleta1) != null)
             {
                 if (paleta1 == tempera1)
                 {
@@ -231,6 +231,39 @@ namespace EjerClase06_Entidades
                 }
             }
 
+            return paleta1;
+        }
+        
+        public static Paleta operator +(Paleta paleta1, Paleta paleta2)
+        {
+            if (((object)paleta1) != null && ((object)paleta2) != null)
+            {
+                foreach (Tempera temperaA in paleta2._colores)
+                {
+                    if (((object)temperaA) != null)
+                    {
+                        paleta1 += temperaA;
+                    }
+                }
+            }
+            return paleta1;
+        }
+
+        public static Paleta operator -(Paleta paleta1, Paleta paleta2)
+        {
+            if (((object)paleta1) != null && ((object)paleta2) != null)
+            {
+                foreach (Tempera temperaA in paleta2._colores)
+                {
+                    if (((object)temperaA) != null)
+                    {
+                        if (paleta1 == temperaA)
+                        {
+                            paleta1 -= temperaA; ;
+                        }
+                    }
+                }
+            }
             return paleta1;
         }
     }

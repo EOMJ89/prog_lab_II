@@ -6,3 +6,13 @@ D:\Segado.Emilio\EjerClase06-Exe\obj\Debug\EjerClase06-Exe.csprojResolveAssembly
 D:\Segado.Emilio\EjerClase06-Exe\obj\Debug\EjerClase06-Exe.exe
 D:\Segado.Emilio\EjerClase06-Exe\obj\Debug\EjerClase06-Exe.pdb
 D:\Segado.Emilio\EjerClase06-Exe\bin\Debug\EjerClase06-Entidades.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Exe\bin\Debug\EjerClase06-Exe.exe.config
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Exe\bin\Debug\EjerClase06-Exe.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Exe\bin\Debug\EjerClase06-Exe.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Exe\bin\Debug\EjerClase06-Entidades.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Exe\bin\Debug\EjerClase06-Entidades.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Exe\obj\Debug\EjerClase06-Exe.csprojResolveAssemblyReference.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Exe\obj\Debug\EjerClase06-Exe.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Exe\obj\Debug\EjerClase06-Exe.csproj.CopyComplete
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Exe\obj\Debug\EjerClase06-Exe.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase06-Exe\obj\Debug\EjerClase06-Exe.pdb
