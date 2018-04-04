@@ -1,0 +1,9 @@
+D:\Segado.Emilio\EjerClase05-Library\bin\Debug\EjerClase05-Library.pdb
+D:\Segado.Emilio\EjerClase05-Library\obj\Debug\EjerClase05-Library.dll
+D:\Segado.Emilio\EjerClase05-Library\obj\Debug\EjerClase05-Library.pdb
+D:\Segado.Emilio\EjerClase05-Library\bin\Debug\EjerClase05-Library.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Library\bin\Debug\EjerClase05-Library.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Library\bin\Debug\EjerClase05-Library.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Library\obj\Debug\EjerClase05-Entidades.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Library\obj\Debug\EjerClase05-Library.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Library\obj\Debug\EjerClase05-Library.pdb

@@ -1,0 +1,18 @@
+D:\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Exe.exe.config
+D:\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Exe.exe
+D:\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Exe.pdb
+D:\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Library.dll
+D:\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Library.pdb
+D:\Segado.Emilio\EjerClase05-Exe\obj\Debug\EjerClase05-TestTinta.csprojResolveAssemblyReference.cache
+D:\Segado.Emilio\EjerClase05-Exe\obj\Debug\EjerClase05-Exe.exe
+D:\Segado.Emilio\EjerClase05-Exe\obj\Debug\EjerClase05-Exe.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Exe.exe.config
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Exe.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Exe.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Library.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Library.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Exe\obj\Debug\EjerClase05-TestTinta.csprojResolveAssemblyReference.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Exe\obj\Debug\EjerClase05-TestTinta.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Exe\obj\Debug\EjerClase05-TestTinta.csproj.CopyComplete
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Exe\obj\Debug\EjerClase05-Exe.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase05-Exe\obj\Debug\EjerClase05-Exe.pdb

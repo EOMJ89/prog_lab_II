@@ -1,0 +1,8 @@
+D:\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Exe.exe.config
+D:\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Exe.exe
+D:\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Exe.pdb
+D:\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Library.dll
+D:\Segado.Emilio\EjerClase05-Exe\bin\Debug\EjerClase05-Library.pdb
+D:\Segado.Emilio\EjerClase05-Exe\obj\Debug\EjerClase05-Exe.exe
+D:\Segado.Emilio\EjerClase05-Exe\obj\Debug\EjerClase05-Exe.pdb
+D:\Segado.Emilio\EjerClase05-Exe\obj\Debug\EjerClase05-Exe.csprojResolveAssemblyReference.cache

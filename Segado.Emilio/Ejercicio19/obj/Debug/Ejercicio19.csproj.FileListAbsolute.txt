@@ -1,0 +1,6 @@
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio19\bin\Debug\Ejercicio19.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio19\bin\Debug\Ejercicio19.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio19\obj\Debug\Ejercicio19.csprojResolveAssemblyReference.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio19\obj\Debug\Ejercicio19.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio19\obj\Debug\Ejercicio19.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Ejercicio19\obj\Debug\Ejercicio19.pdb

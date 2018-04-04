@@ -1,0 +1,4 @@
+D:\Segado.Emilio\EjerClase06-Entidades\bin\Debug\EjerClase06-Entidades.dll
+D:\Segado.Emilio\EjerClase06-Entidades\bin\Debug\EjerClase06-Entidades.pdb
+D:\Segado.Emilio\EjerClase06-Entidades\obj\Debug\EjerClase06-Entidades.dll
+D:\Segado.Emilio\EjerClase06-Entidades\obj\Debug\EjerClase06-Entidades.pdb
