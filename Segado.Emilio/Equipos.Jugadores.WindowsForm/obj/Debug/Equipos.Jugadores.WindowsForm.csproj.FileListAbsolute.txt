@@ -1,0 +1,12 @@
+D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\bin\Debug\Equipos.Jugadores.WindowsForm.exe.config
+D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\bin\Debug\Equipos.Jugadores.WindowsForm.exe
+D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\bin\Debug\Equipos.Jugadores.WindowsForm.pdb
+D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.csprojResolveAssemblyReference.cache
+D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.frmJugador.resources
+D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.Properties.Resources.resources
+D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.csproj.GenerateResource.Cache
+D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.exe
+D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.pdb
+D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\bin\Debug\EjerClase07-Ejercicio29-Clases.dll
+D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\bin\Debug\EjerClase07-Ejercicio29-Clases.pdb
+D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.frmEquipo.resources

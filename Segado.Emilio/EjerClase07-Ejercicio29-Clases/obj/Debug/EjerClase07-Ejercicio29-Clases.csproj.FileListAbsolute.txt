@@ -1,0 +1,4 @@
+D:\Segado.Emilio\EjerClase07-Ejercicio29-Clases\bin\Debug\EjerClase07-Ejercicio29-Clases.dll
+D:\Segado.Emilio\EjerClase07-Ejercicio29-Clases\bin\Debug\EjerClase07-Ejercicio29-Clases.pdb
+D:\Segado.Emilio\EjerClase07-Ejercicio29-Clases\obj\Debug\EjerClase07-Ejercicio29-Clases.dll
+D:\Segado.Emilio\EjerClase07-Ejercicio29-Clases\obj\Debug\EjerClase07-Ejercicio29-Clases.pdb

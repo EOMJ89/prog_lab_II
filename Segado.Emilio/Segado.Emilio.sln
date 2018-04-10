@@ -59,6 +59,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase06-Entidades", "Ej
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase06-Exe", "EjerClase06-Exe\EjerClase06-Exe.csproj", "{17157AC3-70F0-4221-962D-E1E402FD34E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase07-Ejercicio29-Clases", "EjerClase07-Ejercicio29-Clases\EjerClase07-Ejercicio29-Clases.csproj", "{D3F86508-2F34-4CB0-A8D7-FD887835A62F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase07-Ejercicio29-Exe", "EjerClase07-Ejercicio29-Exe\EjerClase07-Ejercicio29-Exe.csproj", "{F14653F9-6A40-41B8-8FF3-EB64E3323DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equipos.Jugadores.WindowsForm", "Equipos.Jugadores.WindowsForm\Equipos.Jugadores.WindowsForm.csproj", "{A7E628DC-0456-4278-ADA1-94F22AF3131E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +187,18 @@ Global
 		{17157AC3-70F0-4221-962D-E1E402FD34E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17157AC3-70F0-4221-962D-E1E402FD34E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17157AC3-70F0-4221-962D-E1E402FD34E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F86508-2F34-4CB0-A8D7-FD887835A62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F86508-2F34-4CB0-A8D7-FD887835A62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F86508-2F34-4CB0-A8D7-FD887835A62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F86508-2F34-4CB0-A8D7-FD887835A62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14653F9-6A40-41B8-8FF3-EB64E3323DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14653F9-6A40-41B8-8FF3-EB64E3323DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14653F9-6A40-41B8-8FF3-EB64E3323DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14653F9-6A40-41B8-8FF3-EB64E3323DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E628DC-0456-4278-ADA1-94F22AF3131E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E628DC-0456-4278-ADA1-94F22AF3131E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E628DC-0456-4278-ADA1-94F22AF3131E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E628DC-0456-4278-ADA1-94F22AF3131E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
