@@ -6,3 +6,13 @@ D:\Segado.Emilio\EjerClase07-Ejercicio29-Exe\bin\Debug\EjerClase07-Ejercicio29-C
 D:\Segado.Emilio\EjerClase07-Ejercicio29-Exe\obj\Debug\EjerClase07-Ejercicio29-Exe.csprojResolveAssemblyReference.cache
 D:\Segado.Emilio\EjerClase07-Ejercicio29-Exe\obj\Debug\EjerClase07-Ejercicio29-Exe.exe
 D:\Segado.Emilio\EjerClase07-Ejercicio29-Exe\obj\Debug\EjerClase07-Ejercicio29-Exe.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Exe\bin\Debug\EjerClase07-Ejercicio29-Exe.exe.config
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Exe\bin\Debug\EjerClase07-Ejercicio29-Exe.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Exe\bin\Debug\EjerClase07-Ejercicio29-Exe.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Exe\bin\Debug\EjerClase07-Ejercicio29-Clases.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Exe\bin\Debug\EjerClase07-Ejercicio29-Clases.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Exe\obj\Debug\EjerClase07-Ejercicio29-Exe.csprojResolveAssemblyReference.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Exe\obj\Debug\EjerClase07-Ejercicio29-Exe.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Exe\obj\Debug\EjerClase07-Ejercicio29-Exe.csproj.CopyComplete
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Exe\obj\Debug\EjerClase07-Ejercicio29-Exe.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Exe\obj\Debug\EjerClase07-Ejercicio29-Exe.pdb

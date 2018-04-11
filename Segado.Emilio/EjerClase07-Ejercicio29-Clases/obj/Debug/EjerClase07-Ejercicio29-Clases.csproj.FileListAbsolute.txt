@@ -2,3 +2,8 @@ D:\Segado.Emilio\EjerClase07-Ejercicio29-Clases\bin\Debug\EjerClase07-Ejercicio2
 D:\Segado.Emilio\EjerClase07-Ejercicio29-Clases\bin\Debug\EjerClase07-Ejercicio29-Clases.pdb
 D:\Segado.Emilio\EjerClase07-Ejercicio29-Clases\obj\Debug\EjerClase07-Ejercicio29-Clases.dll
 D:\Segado.Emilio\EjerClase07-Ejercicio29-Clases\obj\Debug\EjerClase07-Ejercicio29-Clases.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Clases\bin\Debug\EjerClase07-Ejercicio29-Clases.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Clases\bin\Debug\EjerClase07-Ejercicio29-Clases.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Clases\obj\Debug\EjerClase07-Ejercicio29-Clases.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Clases\obj\Debug\EjerClase07-Ejercicio29-Clases.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\EjerClase07-Ejercicio29-Clases\obj\Debug\EjerClase07-Ejercicio29-Clases.pdb

@@ -16,6 +16,7 @@ namespace Equipos.Jugadores.WindowsForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
             Application.Run(new frmEquipo());
         }
     }

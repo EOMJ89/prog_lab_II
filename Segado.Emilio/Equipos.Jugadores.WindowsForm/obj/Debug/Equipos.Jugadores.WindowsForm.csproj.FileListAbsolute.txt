@@ -10,3 +10,17 @@ D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.Windo
 D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\bin\Debug\EjerClase07-Ejercicio29-Clases.dll
 D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\bin\Debug\EjerClase07-Ejercicio29-Clases.pdb
 D:\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.frmEquipo.resources
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Equipos.Jugadores.WindowsForm\bin\Debug\Equipos.Jugadores.WindowsForm.exe.config
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Equipos.Jugadores.WindowsForm\bin\Debug\Equipos.Jugadores.WindowsForm.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Equipos.Jugadores.WindowsForm\bin\Debug\Equipos.Jugadores.WindowsForm.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Equipos.Jugadores.WindowsForm\bin\Debug\EjerClase07-Ejercicio29-Clases.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Equipos.Jugadores.WindowsForm\bin\Debug\EjerClase07-Ejercicio29-Clases.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.csprojResolveAssemblyReference.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.frmEquipo.resources
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.frmJugador.resources
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.Properties.Resources.resources
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.csproj.GenerateResource.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.csproj.CopyComplete
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio\Equipos.Jugadores.WindowsForm\obj\Debug\Equipos.Jugadores.WindowsForm.pdb
