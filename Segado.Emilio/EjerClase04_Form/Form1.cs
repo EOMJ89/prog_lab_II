@@ -23,6 +23,7 @@ namespace EjerClase04_Form
             string numero = this.textBoxNumero.Text;
             string cadena = this.textBoxCadena.Text;
             string fecha = this.textBoxFecha.Text;
+
             int numeroParsed = 0;
             DateTime fechaParsed = new DateTime();
             int.TryParse(numero, out numeroParsed);

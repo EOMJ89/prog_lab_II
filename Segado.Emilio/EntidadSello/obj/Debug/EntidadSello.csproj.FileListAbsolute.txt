@@ -13,3 +13,8 @@ E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.c
 E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.csproj.CoreCompileInputs.cache
 E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.dll
 E:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.pdb
+D:\Segado.Emilio\EntidadSello\bin\Debug\EntidadSello.dll
+D:\Segado.Emilio\EntidadSello\bin\Debug\EntidadSello.pdb
+D:\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.csprojResolveAssemblyReference.cache
+D:\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.dll
+D:\Segado.Emilio\EntidadSello\obj\Debug\EntidadSello.pdb
