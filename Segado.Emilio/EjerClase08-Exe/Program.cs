@@ -13,12 +13,11 @@ namespace EjerClase08_Exe
         {
             Lavadero lavadero = new Lavadero(1, 2, 3);
             Auto auto1 = new Auto("AB", 4, EMarcas.Fiat, 4);
-            Auto auto2 = new Auto("BC", 4, EMarcas.Fiat, 4);
+            Auto auto2 = new Auto("BC", 4, EMarcas.Iveco, 4);
             Camion camion1 = new Camion("JK", 18, EMarcas.Iveco, 30);
             Camion camion2 = new Camion("JK", 8, EMarcas.Iveco, 56); //Es igual a camion1, por lo que no se puede agregar
             Moto moto1 = new Moto("FG", 2, EMarcas.Honda, 50);
 
-            
             Console.WriteLine(lavadero.LavaderoAll);
 
             Console.WriteLine("Añadir vehiculo y mostrar");
@@ -48,9 +47,19 @@ namespace EjerClase08_Exe
 
             Console.WriteLine("\nMostrar precio de camion");
             Console.WriteLine(lavadero.MostrarTotalFacturado(EVehiculo.Camion));
-
+            
             Console.WriteLine("\nMostrar precio de moto");
             Console.WriteLine(lavadero.MostrarTotalFacturado(EVehiculo.Moto));
+            
+            Console.WriteLine("\nMostrar Ordenar de por patente");
+            Console.WriteLine(Lavadero.OrdenarVehiculosPorPatentes(auto1, auto2));
+            Console.WriteLine(Lavadero.OrdenarVehiculosPorPatentes(auto2, auto2));
+            Console.WriteLine(Lavadero.OrdenarVehiculosPorPatentes(auto2, auto1));
+
+            Console.WriteLine("\nMostrar Ordenar por marca");
+            Console.WriteLine(Lavadero.OrdenarVehiculosPorMarca(auto1, auto2));
+            Console.WriteLine(Lavadero.OrdenarVehiculosPorMarca(auto2, auto2));
+            Console.WriteLine(Lavadero.OrdenarVehiculosPorMarca(auto2, auto1));
             Console.ReadLine();
         }
     }

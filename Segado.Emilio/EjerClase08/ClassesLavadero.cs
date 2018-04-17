@@ -251,7 +251,7 @@ namespace EjerClase08
             {
                 lavadero1._vehiculos.Add(vehiculo1);
             }
-            
+
             return lavadero1;
         }
 
@@ -270,8 +270,30 @@ namespace EjerClase08
             return lavadero1;
         }
 
-        //public static int OrdernarVehiculosPorPatente(Vehiculo vehiculo1, Vehiculo vehiculo2)
-        //{ 
-        //}
+        public static int OrdenarVehiculosPorPatentes(Vehiculo vehiculo1, Vehiculo vehiculo2)
+        {
+            int retorno = 0;
+
+            if (string.Compare(vehiculo1.Patente, vehiculo2.Patente) == -1)
+            { retorno = 1; }
+            else if (string.Compare(vehiculo1.Patente, vehiculo2.Patente) == 1)
+            { retorno = -1; }
+            else if (string.Compare(vehiculo1.Patente, vehiculo2.Patente) == 0)
+            { retorno = 0; }
+            return retorno;
+        }
+
+        public static int OrdenarVehiculosPorMarca(Vehiculo vehiculo1, Vehiculo vehiculo2)
+        {
+            int retorno = 0;
+
+            if (vehiculo1.Marca > vehiculo2.Marca)
+            { retorno = 1; }
+            else if (vehiculo1.Marca < vehiculo2.Marca)
+            { retorno = -1; }
+            else if (vehiculo1.Marca == vehiculo2.Marca)
+            { retorno = 0; }
+            return retorno;
+        }
     }
 }
