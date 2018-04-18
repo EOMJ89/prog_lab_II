@@ -65,9 +65,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase07-Ejercicio29-Exe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equipos.Jugadores.WindowsForm", "Equipos.Jugadores.WindowsForm\Equipos.Jugadores.WindowsForm.csproj", "{A7E628DC-0456-4278-ADA1-94F22AF3131E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase08", "EjerClase08\EjerClase08.csproj", "{42B2B3F9-3C3D-4A22-8119-85AEFDE35F0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase09", "EjerClase08\EjerClase09.csproj", "{42B2B3F9-3C3D-4A22-8119-85AEFDE35F0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase08-Exe", "EjerClase08-Exe\EjerClase08-Exe.csproj", "{7D38FC90-075B-4148-9FF4-B1B033C54E38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase09-Exe", "EjerClase08-Exe\EjerClase09-Exe.csproj", "{7D38FC90-075B-4148-9FF4-B1B033C54E38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

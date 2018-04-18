@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EjerClase08
 {
-    public class Vehiculo
+    public abstract class Vehiculo
     {
         protected string _patente;
         protected byte _cantRuedas;
@@ -22,8 +22,13 @@ namespace EjerClase08
             get { return this._marca; }
         }
 
-        protected string Mostrar()
+        protected virtual string Mostrar()
         { return ("Patente: " + this.Patente + " Marca: " + this.Marca + " Cant Ruedas: " + this._cantRuedas); }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
+        }
 
         public Vehiculo(string patente, byte cantRuedas, EMarcas marca)
         {
@@ -43,15 +48,22 @@ namespace EjerClase08
 
         public static Boolean operator !=(Vehiculo vehiculo1, Vehiculo vehiculo2)
         { return !(vehiculo1 == vehiculo2); }
+
+        public abstract string Acelerar();
     }
 
     public class Auto : Vehiculo
     {
         protected int _cantidadAsientos;
 
-        public string MostrarAuto()
+        protected override string Mostrar()
         {
             return (base.Mostrar() + " Cant Asientos: " + this._cantidadAsientos + "\n");
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
         }
 
         public Auto(string patente, byte cantRuedas, EMarcas marca, int cantAsientos)
@@ -59,15 +71,39 @@ namespace EjerClase08
         {
             this._cantidadAsientos = cantRuedas;
         }
+
+        public override bool Equals(object obj)
+        {
+            Boolean retorno = false;
+
+            if (obj is Auto)
+            {
+                if (this == (Vehiculo)obj)
+                {
+                    retorno = true;
+                }
+            }
+            return retorno;
+        }
+
+        public override string Acelerar()
+        {
+            return "El auto esta acelerado\n";
+        }
     }
 
     public class Camion : Vehiculo
     {
         protected float _tara;
 
-        public string MostrarCamion()
+        protected override string Mostrar()
         {
             return (base.Mostrar() + " Tara " + this._tara + "\n");
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
         }
 
         public Camion(string patente, byte cantRuedas, EMarcas marca, float tara)
@@ -75,21 +111,64 @@ namespace EjerClase08
         {
             this._tara = tara;
         }
+
+        public override bool Equals(object obj)
+        {
+            Boolean retorno = false;
+
+            if (obj is Camion)
+            {
+                if (this == (Vehiculo)obj)
+                {
+                    retorno = true;
+                }
+            }
+            return retorno;
+        }
+
+        public override string Acelerar()
+        {
+            return "El Camion esta acelerado\n";
+        }
     }
 
     public class Moto : Vehiculo
     {
         protected float _cilindrada;
 
-        public string MostrarMoto()
+        protected override string Mostrar()
         {
             return (base.Mostrar() + " Cilindrada " + this._cilindrada + "\n");
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
         }
 
         public Moto(string patente, byte cantRuedas, EMarcas marca, float cilindrada)
             : base(patente, cantRuedas, marca)
         {
             this._cilindrada = cilindrada;
+        }
+
+        public override bool Equals(object obj)
+        {
+            Boolean retorno = false;
+
+            if (obj is Moto)
+            {
+                if (this == (Vehiculo)obj)
+                {
+                    retorno = true;
+                }
+            }
+            return retorno;
+        }
+
+        public override string Acelerar()
+        {
+            return "La moto esta acelerada\n";
         }
     }
 
@@ -128,12 +207,16 @@ namespace EjerClase08
                 string retorno = "";
                 foreach (Vehiculo vehiculoA in this._vehiculos)
                 {
-                    if (vehiculoA is Auto)
-                    { retorno += ((Auto)vehiculoA).MostrarAuto(); }
-                    else if (vehiculoA is Camion)
-                    { retorno += ((Camion)vehiculoA).MostrarCamion(); }
-                    else if (vehiculoA is Moto)
-                    { retorno += ((Moto)vehiculoA).MostrarMoto(); }
+                    //retorno += vehiculoA.ToString();
+                    retorno += vehiculoA + vehiculoA.Acelerar() + "\n";
+
+                    //Sin polimorfismo
+                    //if (vehiculoA is Auto)
+                    //{ retorno += ((Auto)vehiculoA).MostrarAuto(); }
+                    //else if (vehiculoA is Camion)
+                    //{ retorno += ((Camion)vehiculoA).MostrarCamion(); }
+                    //else if (vehiculoA is Moto)
+                    //{ retorno += ((Moto)vehiculoA).MostrarMoto(); }
                 }
 
                 return retorno;
@@ -154,36 +237,38 @@ namespace EjerClase08
                 else if (vehiculoA is Moto)
                 { contMotos++; }
 
-                //Metodo propio
-                //switch (tipoVehiculo)
-                //{
-                //    case EVehiculo.Auto:
-                //        {
-                //            if (vehiculoA is Auto)
-                //            {
-                //                retorno += this._precioAuto;
-                //            }
-                //            break;
-                //        }
-                //    case EVehiculo.Camion:
-                //        {
-                //            if (vehiculoA is Camion)
-                //            {
-                //                retorno += this._precioCamion;
-                //            }
-                //            break;
-                //        }
-                //    case EVehiculo.Moto:
-                //        {
-                //            if (vehiculoA is Moto)
-                //            {
-                //                retorno += this._precioMoto;
-                //            }
-                //            break;
-                //    default:
-                //    break;
-                //        }
-                //}
+                /*
+                Metodo propio
+                switch (tipoVehiculo)
+                {
+                    case EVehiculo.Auto:
+                        {
+                            if (vehiculoA is Auto)
+                            {
+                                retorno += this._precioAuto;
+                            }
+                            break;
+                        }
+                    case EVehiculo.Camion:
+                        {
+                            if (vehiculoA is Camion)
+                            {
+                                retorno += this._precioCamion;
+                            }
+                            break;
+                        }
+                    case EVehiculo.Moto:
+                        {
+                            if (vehiculoA is Moto)
+                            {
+                                retorno += this._precioMoto;
+                            }
+                            break;
+                    default:
+                    break;
+                        }
+                }*/
+
             }
 
             switch (tipoVehiculo)
@@ -275,11 +360,9 @@ namespace EjerClase08
             int retorno = 0;
 
             if (string.Compare(vehiculo1.Patente, vehiculo2.Patente) == -1)
-            { retorno = 1; }
-            else if (string.Compare(vehiculo1.Patente, vehiculo2.Patente) == 1)
             { retorno = -1; }
-            else if (string.Compare(vehiculo1.Patente, vehiculo2.Patente) == 0)
-            { retorno = 0; }
+            else if (string.Compare(vehiculo1.Patente, vehiculo2.Patente) == 1)
+            { retorno = 1; }
             return retorno;
         }
 
@@ -287,13 +370,22 @@ namespace EjerClase08
         {
             int retorno = 0;
 
-            if (vehiculo1.Marca > vehiculo2.Marca)
-            { retorno = 1; }
-            else if (vehiculo1.Marca < vehiculo2.Marca)
+            if (vehiculo1.Marca < vehiculo2.Marca)
             { retorno = -1; }
-            else if (vehiculo1.Marca == vehiculo2.Marca)
-            { retorno = 0; }
+            else if (vehiculo1.Marca > vehiculo2.Marca)
+            { retorno = 1; }
             return retorno;
+        }
+
+        public void OrdenarPorPatente()
+        {
+            this._vehiculos.Sort(Lavadero.OrdenarVehiculosPorPatentes);
+        }
+
+
+        public void OrdenarPorMarca()
+        {
+            this._vehiculos.Sort(Lavadero.OrdenarVehiculosPorMarca);
         }
     }
 }
