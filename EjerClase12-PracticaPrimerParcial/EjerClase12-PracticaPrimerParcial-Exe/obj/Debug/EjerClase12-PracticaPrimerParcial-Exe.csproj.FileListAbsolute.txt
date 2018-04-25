@@ -1,0 +1,8 @@
+D:\EjerClase12-PracticaPrimerParcial\EjerClase12-PracticaPrimerParcial-Exe\bin\Debug\EjerClase12-PracticaPrimerParcial-Exe.exe.config
+D:\EjerClase12-PracticaPrimerParcial\EjerClase12-PracticaPrimerParcial-Exe\obj\Debug\EjerClase12-PracticaPrimerParcial-Exe.csprojResolveAssemblyReference.cache
+D:\EjerClase12-PracticaPrimerParcial\EjerClase12-PracticaPrimerParcial-Exe\bin\Debug\EjerClase12-PracticaPrimerParcial-Exe.exe
+D:\EjerClase12-PracticaPrimerParcial\EjerClase12-PracticaPrimerParcial-Exe\bin\Debug\EjerClase12-PracticaPrimerParcial-Exe.pdb
+D:\EjerClase12-PracticaPrimerParcial\EjerClase12-PracticaPrimerParcial-Exe\bin\Debug\CompraVenta.dll
+D:\EjerClase12-PracticaPrimerParcial\EjerClase12-PracticaPrimerParcial-Exe\bin\Debug\CompraVenta.pdb
+D:\EjerClase12-PracticaPrimerParcial\EjerClase12-PracticaPrimerParcial-Exe\obj\Debug\EjerClase12-PracticaPrimerParcial-Exe.exe
+D:\EjerClase12-PracticaPrimerParcial\EjerClase12-PracticaPrimerParcial-Exe\obj\Debug\EjerClase12-PracticaPrimerParcial-Exe.pdb
