@@ -1,0 +1,9 @@
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\Tester\bin\Debug\Tester.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\Tester\bin\Debug\Tester.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\Tester\bin\Debug\ClasesPersonas.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\Tester\bin\Debug\ClasesPersonas.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\Tester\obj\Debug\Tester.csprojResolveAssemblyReference.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\Tester\obj\Debug\Tester.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\Tester\obj\Debug\Tester.csproj.CopyComplete
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\Tester\obj\Debug\Tester.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\Tester\obj\Debug\Tester.pdb
