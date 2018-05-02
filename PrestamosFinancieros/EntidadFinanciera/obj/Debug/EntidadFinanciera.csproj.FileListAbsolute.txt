@@ -1,0 +1,6 @@
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\EntidadFinanciera\obj\Debug\EntidadFinanciera.csprojResolveAssemblyReference.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\EntidadFinanciera\obj\Debug\EntidadFinanciera.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\EntidadFinanciera\bin\Debug\EntidadFinanciera.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\EntidadFinanciera\bin\Debug\EntidadFinanciera.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\EntidadFinanciera\obj\Debug\EntidadFinanciera.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\EntidadFinanciera\obj\Debug\EntidadFinanciera.pdb
