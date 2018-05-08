@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstanteClases", "JugosClases\EstanteClases.csproj", "{705DA2ED-1ECC-4713-84E2-82A02260DDD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{99D514F0-92A4-4B5A-8101-F1E52493F3E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{705DA2ED-1ECC-4713-84E2-82A02260DDD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705DA2ED-1ECC-4713-84E2-82A02260DDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705DA2ED-1ECC-4713-84E2-82A02260DDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705DA2ED-1ECC-4713-84E2-82A02260DDD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D514F0-92A4-4B5A-8101-F1E52493F3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D514F0-92A4-4B5A-8101-F1E52493F3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D514F0-92A4-4B5A-8101-F1E52493F3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D514F0-92A4-4B5A-8101-F1E52493F3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D8C7281-0047-4BCC-9354-23B768BE9D2C}
+	EndGlobalSection
+EndGlobal

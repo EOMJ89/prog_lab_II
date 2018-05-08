@@ -1,0 +1,9 @@
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\Tester\obj\Debug\Tester.csprojResolveAssemblyReference.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\Tester\obj\Debug\Tester.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\Tester\bin\Debug\Tester.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\Tester\bin\Debug\Tester.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\Tester\bin\Debug\JugosClases.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\Tester\bin\Debug\JugosClases.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\Tester\obj\Debug\Tester.csproj.CopyComplete
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\Tester\obj\Debug\Tester.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\Tester\obj\Debug\Tester.pdb
