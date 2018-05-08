@@ -1,0 +1,6 @@
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Humanos-Animales\EntidadesHumanos-Animales\obj\Debug\EntidadesHumanos-Animales.csprojResolveAssemblyReference.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Humanos-Animales\EntidadesHumanos-Animales\obj\Debug\EntidadesHumanos-Animales.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Humanos-Animales\EntidadesHumanos-Animales\bin\Debug\EntidadesHumanos-Animales.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Humanos-Animales\EntidadesHumanos-Animales\bin\Debug\EntidadesHumanos-Animales.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Humanos-Animales\EntidadesHumanos-Animales\obj\Debug\EntidadesHumanos-Animales.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Humanos-Animales\EntidadesHumanos-Animales\obj\Debug\EntidadesHumanos-Animales.pdb
