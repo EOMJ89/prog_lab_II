@@ -1,0 +1,5 @@
+D:\Segado.Emilio\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Segado.Emilio\Entidades\bin\Debug\Entidades.dll
+D:\Segado.Emilio\Entidades\bin\Debug\Entidades.pdb
+D:\Segado.Emilio\Entidades\obj\Debug\Entidades.dll
+D:\Segado.Emilio\Entidades\obj\Debug\Entidades.pdb

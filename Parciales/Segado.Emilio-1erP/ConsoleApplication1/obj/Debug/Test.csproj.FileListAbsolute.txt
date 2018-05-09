@@ -1,0 +1,8 @@
+D:\Segado.Emilio\ConsoleApplication1\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\Segado.Emilio\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Segado.Emilio\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Segado.Emilio\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Segado.Emilio\ConsoleApplication1\bin\Debug\Entidades.dll
+D:\Segado.Emilio\ConsoleApplication1\bin\Debug\Entidades.pdb
+D:\Segado.Emilio\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Segado.Emilio\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
