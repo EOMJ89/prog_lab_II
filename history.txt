@@ -1,0 +1,20 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  pwd
+    6  cd
+    7  pwd
+    8  mkdir -p ./Sistemas/{Contabilidad/{DBA,Perfiles,Programas,Textos}/,Recursos/{Perfiles/{Usuarios,Usuarios-dev},Programas,Textos}/}
+    9  tree
+   10  echo "El sistema de Recursos, todo el sistema lo necesario para el manejo del personal." > ./Sistemas/Recursos/Textos/README.txt
+   11  less ./Sistemas/Recursos/Textos/README.txt 
+   12  cp /usr/share/man/es/ ./Sistemas/Contabilidad/Textos/
+   13  tree
+   14  cp -r /usr/share/man/es/ ./Sistemas/Contabilidad/Textos/
+   15  tree
+   16  less /etc/passwd > Contabilidad/Perfiles/usuarios.txt
+   17  less /etc/passwd > ./Sistemas/Contabilidad/Perfiles/usuarios.txt
+   18  tree
+   19  less ./Sistemas/Contabilidad/Perfiles/usuarios.txt 
+   20  history > history.txt
