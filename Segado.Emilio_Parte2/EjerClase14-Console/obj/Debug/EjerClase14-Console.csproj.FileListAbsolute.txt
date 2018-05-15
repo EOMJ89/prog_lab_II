@@ -1,0 +1,18 @@
+D:\VisualStudio\Segado.Emilio_EjerciciosYClases_Parte2\EjerClase14-Console\obj\Debug\EjerClase14-Console.csprojResolveAssemblyReference.cache
+D:\VisualStudio\Segado.Emilio_EjerciciosYClases_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Console.exe.config
+D:\VisualStudio\Segado.Emilio_EjerciciosYClases_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Console.exe
+D:\VisualStudio\Segado.Emilio_EjerciciosYClases_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Console.pdb
+D:\VisualStudio\Segado.Emilio_EjerciciosYClases_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Library.dll
+D:\VisualStudio\Segado.Emilio_EjerciciosYClases_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Library.pdb
+D:\VisualStudio\Segado.Emilio_EjerciciosYClases_Parte2\EjerClase14-Console\obj\Debug\EjerClase14-Console.exe
+D:\VisualStudio\Segado.Emilio_EjerciciosYClases_Parte2\EjerClase14-Console\obj\Debug\EjerClase14-Console.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Console.exe.config
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Console.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Console.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Library.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Library.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\EjerClase14-Console\obj\Debug\EjerClase14-Console.csprojResolveAssemblyReference.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\EjerClase14-Console\obj\Debug\EjerClase14-Console.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\EjerClase14-Console\obj\Debug\EjerClase14-Console.csproj.CopyComplete
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\EjerClase14-Console\obj\Debug\EjerClase14-Console.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\EjerClase14-Console\obj\Debug\EjerClase14-Console.pdb
