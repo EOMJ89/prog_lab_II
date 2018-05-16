@@ -1,0 +1,11 @@
+D:\Segado.Emilio_Parte2\Ejercicio25_Form\obj\Debug\Ejercicio25_Form.csprojResolveAssemblyReference.cache
+D:\Segado.Emilio_Parte2\Ejercicio25_Form\obj\Debug\Ejercicio25_Form.Form1.resources
+D:\Segado.Emilio_Parte2\Ejercicio25_Form\obj\Debug\Ejercicio25_Form.Properties.Resources.resources
+D:\Segado.Emilio_Parte2\Ejercicio25_Form\obj\Debug\Ejercicio25_Form.csproj.GenerateResource.Cache
+D:\Segado.Emilio_Parte2\Ejercicio25_Form\bin\Debug\Ejercicio25_Form.exe.config
+D:\Segado.Emilio_Parte2\Ejercicio25_Form\bin\Debug\Ejercicio25_Form.exe
+D:\Segado.Emilio_Parte2\Ejercicio25_Form\bin\Debug\Ejercicio25_Form.pdb
+D:\Segado.Emilio_Parte2\Ejercicio25_Form\bin\Debug\Ejercicio22.dll
+D:\Segado.Emilio_Parte2\Ejercicio25_Form\bin\Debug\Ejercicio22.pdb
+D:\Segado.Emilio_Parte2\Ejercicio25_Form\obj\Debug\Ejercicio25_Form.exe
+D:\Segado.Emilio_Parte2\Ejercicio25_Form\obj\Debug\Ejercicio25_Form.pdb

@@ -1,0 +1,9 @@
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio28-Form\bin\Debug\Ejercicio28-Form.exe.config
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio28-Form\bin\Debug\Ejercicio28-Form.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio28-Form\bin\Debug\Ejercicio28-Form.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio28-Form\obj\Debug\Ejercicio28_Form.Form1.resources
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio28-Form\obj\Debug\Ejercicio28_Form.Properties.Resources.resources
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio28-Form\obj\Debug\Ejercicio28-Form.csproj.GenerateResource.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio28-Form\obj\Debug\Ejercicio28-Form.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio28-Form\obj\Debug\Ejercicio28-Form.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio28-Form\obj\Debug\Ejercicio28-Form.pdb

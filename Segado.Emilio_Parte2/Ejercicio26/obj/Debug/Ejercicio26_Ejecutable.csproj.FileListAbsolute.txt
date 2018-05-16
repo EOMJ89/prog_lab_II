@@ -1,0 +1,7 @@
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio26\obj\Debug\Ejercicio26_Ejecutable.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio26\bin\Debug\Ejercicio26.exe.config
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio26\bin\Debug\Ejercicio26.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio26\bin\Debug\Ejercicio26.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio26\obj\Debug\Ejercicio26.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio26\obj\Debug\Ejercicio26.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio26\obj\Debug\Ejercicio26_Ejecutable.csprojAssemblyReference.cache
