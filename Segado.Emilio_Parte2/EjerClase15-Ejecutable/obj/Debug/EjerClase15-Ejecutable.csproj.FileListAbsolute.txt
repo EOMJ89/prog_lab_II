@@ -1,0 +1,8 @@
+D:\Segado.Emilio_Parte2\EjerClase15-Ejecutable\bin\Debug\EjerClase15-Ejecutable.exe.config
+D:\Segado.Emilio_Parte2\EjerClase15-Ejecutable\obj\Debug\EjerClase15-Ejecutable.csprojResolveAssemblyReference.cache
+D:\Segado.Emilio_Parte2\EjerClase15-Ejecutable\bin\Debug\EjerClase15-Ejecutable.exe
+D:\Segado.Emilio_Parte2\EjerClase15-Ejecutable\bin\Debug\EjerClase15-Ejecutable.pdb
+D:\Segado.Emilio_Parte2\EjerClase15-Ejecutable\bin\Debug\EjerClase15-Library.dll
+D:\Segado.Emilio_Parte2\EjerClase15-Ejecutable\bin\Debug\EjerClase15-Library.pdb
+D:\Segado.Emilio_Parte2\EjerClase15-Ejecutable\obj\Debug\EjerClase15-Ejecutable.exe
+D:\Segado.Emilio_Parte2\EjerClase15-Ejecutable\obj\Debug\EjerClase15-Ejecutable.pdb

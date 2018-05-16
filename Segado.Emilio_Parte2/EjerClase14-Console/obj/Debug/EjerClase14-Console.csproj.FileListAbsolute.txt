@@ -16,3 +16,11 @@ C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\EjerClase14-Con
 C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\EjerClase14-Console\obj\Debug\EjerClase14-Console.csproj.CopyComplete
 C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\EjerClase14-Console\obj\Debug\EjerClase14-Console.exe
 C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\EjerClase14-Console\obj\Debug\EjerClase14-Console.pdb
+D:\Segado.Emilio_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Console.exe.config
+D:\Segado.Emilio_Parte2\EjerClase14-Console\obj\Debug\EjerClase14-Console.exe
+D:\Segado.Emilio_Parte2\EjerClase14-Console\obj\Debug\EjerClase14-Console.pdb
+D:\Segado.Emilio_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Console.exe
+D:\Segado.Emilio_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Console.pdb
+D:\Segado.Emilio_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Library.dll
+D:\Segado.Emilio_Parte2\EjerClase14-Console\bin\Debug\EjerClase14-Library.pdb
+D:\Segado.Emilio_Parte2\EjerClase14-Console\obj\Debug\EjerClase14-Console.csprojResolveAssemblyReference.cache

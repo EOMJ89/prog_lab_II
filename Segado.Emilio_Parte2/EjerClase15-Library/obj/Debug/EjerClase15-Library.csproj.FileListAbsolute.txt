@@ -1,0 +1,5 @@
+D:\Segado.Emilio_Parte2\EjerClase15-Library\bin\Debug\EjerClase15-Library.dll
+D:\Segado.Emilio_Parte2\EjerClase15-Library\bin\Debug\EjerClase15-Library.pdb
+D:\Segado.Emilio_Parte2\EjerClase15-Library\obj\Debug\EjerClase15-Library.dll
+D:\Segado.Emilio_Parte2\EjerClase15-Library\obj\Debug\EjerClase15-Library.pdb
+D:\Segado.Emilio_Parte2\EjerClase15-Library\obj\Debug\EjerClase15-Library.csprojResolveAssemblyReference.cache
