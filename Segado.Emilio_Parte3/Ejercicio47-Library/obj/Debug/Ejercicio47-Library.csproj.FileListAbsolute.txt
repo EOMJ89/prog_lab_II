@@ -1,0 +1,5 @@
+D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Library\bin\Debug\Ejercicio47-Library.dll
+D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Library\bin\Debug\Ejercicio47-Library.pdb
+D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Library\obj\Debug\Ejercicio47-Library.csprojResolveAssemblyReference.cache
+D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Library\obj\Debug\Ejercicio47-Library.dll
+D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Library\obj\Debug\Ejercicio47-Library.pdb

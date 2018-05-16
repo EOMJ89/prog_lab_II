@@ -1,0 +1,8 @@
+D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\obj\Debug\Ejercicio47-Ejecutable.csprojResolveAssemblyReference.cache
+D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\bin\Debug\Ejercicio47-Ejecutable.exe.config
+D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\bin\Debug\Ejercicio47-Ejecutable.exe
+D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\bin\Debug\Ejercicio47-Ejecutable.pdb
+D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\bin\Debug\Ejercicio47-Library.dll
+D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\bin\Debug\Ejercicio47-Library.pdb
+D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\obj\Debug\Ejercicio47-Ejecutable.exe
+D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\obj\Debug\Ejercicio47-Ejecutable.pdb
