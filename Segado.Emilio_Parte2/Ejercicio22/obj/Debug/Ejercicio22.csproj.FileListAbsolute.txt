@@ -1,0 +1,10 @@
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22\bin\Debug\Ejercicio22.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22\bin\Debug\Ejercicio22.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22\obj\Debug\Ejercicio22.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22\obj\Debug\Ejercicio22.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22\obj\Debug\Ejercicio22.pdb
+D:\Segado.Emilio_Parte2\Ejercicio22\bin\Debug\Ejercicio22.dll
+D:\Segado.Emilio_Parte2\Ejercicio22\bin\Debug\Ejercicio22.pdb
+D:\Segado.Emilio_Parte2\Ejercicio22\obj\Debug\Ejercicio22.csprojResolveAssemblyReference.cache
+D:\Segado.Emilio_Parte2\Ejercicio22\obj\Debug\Ejercicio22.dll
+D:\Segado.Emilio_Parte2\Ejercicio22\obj\Debug\Ejercicio22.pdb

@@ -1,0 +1,6 @@
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Moneda\obj\Debug\Ejercicio23_Moneda.csprojResolveAssemblyReference.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Moneda\obj\Debug\Ejercicio23_Moneda.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Moneda\bin\Debug\Ejercicio23_Moneda.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Moneda\bin\Debug\Ejercicio23_Moneda.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Moneda\obj\Debug\Ejercicio23_Moneda.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Moneda\obj\Debug\Ejercicio23_Moneda.pdb

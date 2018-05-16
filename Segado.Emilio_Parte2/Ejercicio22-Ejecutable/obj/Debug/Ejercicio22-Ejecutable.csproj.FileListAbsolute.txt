@@ -1,0 +1,10 @@
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22-Ejecutable\obj\Debug\Ejercicio22-Ejecutable.csprojResolveAssemblyReference.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22-Ejecutable\obj\Debug\Ejercicio22-Ejecutable.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22-Ejecutable\bin\Debug\Ejercicio22-Ejecutable.exe.config
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22-Ejecutable\bin\Debug\Ejercicio22-Ejecutable.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22-Ejecutable\bin\Debug\Ejercicio22-Ejecutable.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22-Ejecutable\bin\Debug\Ejercicio22.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22-Ejecutable\bin\Debug\Ejercicio22.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22-Ejecutable\obj\Debug\Ejercicio22-Ejecutable.csproj.CopyComplete
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22-Ejecutable\obj\Debug\Ejercicio22-Ejecutable.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio22-Ejecutable\obj\Debug\Ejercicio22-Ejecutable.pdb

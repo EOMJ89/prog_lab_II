@@ -1,0 +1,16 @@
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Form\obj\Debug\Ejercicio23_Form.ConversorForm.resources
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Form\obj\Debug\Ejercicio23_Form.Properties.Resources.resources
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Form\obj\Debug\Ejercicio23-Form.csproj.GenerateResource.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Form\obj\Debug\Ejercicio23-Form.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Form\bin\Debug\Ejercicio23-Form.exe.config
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Form\bin\Debug\Ejercicio23-Form.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Form\bin\Debug\Ejercicio23-Form.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Form\bin\Debug\Ejercicio23_Moneda.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Form\bin\Debug\Ejercicio23_Moneda.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Form\obj\Debug\Ejercicio23-Form.csproj.CopyComplete
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Form\obj\Debug\Ejercicio23-Form.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Form\obj\Debug\Ejercicio23-Form.pdb
+D:\Segado.Emilio_Parte2\Ejercicio23-Form\bin\Debug\Ejercicio23-Form.exe.config
+D:\Segado.Emilio_Parte2\Ejercicio23-Form\obj\Debug\Ejercicio23-Form.exe
+D:\Segado.Emilio_Parte2\Ejercicio23-Form\obj\Debug\Ejercicio23-Form.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio23-Form\obj\Debug\Ejercicio23-Form.csprojAssemblyReference.cache
