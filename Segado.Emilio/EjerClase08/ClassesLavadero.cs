@@ -181,7 +181,7 @@ namespace EjerClase08
 
         private Lavadero()
         {
-            this._vehiculos = new List<Vehiculo>(); //Al ser Auto,Camio y Moto clases heredadas, el list permitirá agregarlos, pero se debe usar el boxing y el unboxing
+            this._vehiculos = new List<Vehiculo>(); //Al ser Auto, Camion y Moto clases heredadas, el list permitirá agregarlos, pero se debe usar el boxing y el unboxing
         }
 
         public Lavadero(float precioAuto, float precioCamion, float precioMoto)

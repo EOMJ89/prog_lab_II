@@ -1,6 +1,0 @@
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ClasesAnimales\bin\Debug\ClasesAnimales.dll
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ClasesAnimales\bin\Debug\ClasesAnimales.pdb
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ClasesAnimales\obj\Debug\ClasesAnimales.csprojResolveAssemblyReference.cache
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ClasesAnimales\obj\Debug\ClasesAnimales.csproj.CoreCompileInputs.cache
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ClasesAnimales\obj\Debug\ClasesAnimales.dll
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ClasesAnimales\obj\Debug\ClasesAnimales.pdb

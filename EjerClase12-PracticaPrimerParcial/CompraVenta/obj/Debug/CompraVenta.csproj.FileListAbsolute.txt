@@ -1,5 +1,0 @@
-D:\EjerClase12-PracticaPrimerParcial\CompraVenta\bin\Debug\CompraVenta.dll
-D:\EjerClase12-PracticaPrimerParcial\CompraVenta\bin\Debug\CompraVenta.pdb
-D:\EjerClase12-PracticaPrimerParcial\CompraVenta\obj\Debug\CompraVenta.csprojResolveAssemblyReference.cache
-D:\EjerClase12-PracticaPrimerParcial\CompraVenta\obj\Debug\CompraVenta.dll
-D:\EjerClase12-PracticaPrimerParcial\CompraVenta\obj\Debug\CompraVenta.pdb

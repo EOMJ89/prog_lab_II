@@ -1,6 +1,0 @@
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\CentralTelefonica\ClassesCentralita\bin\Debug\ClassesCentralita.dll
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\CentralTelefonica\ClassesCentralita\bin\Debug\ClassesCentralita.pdb
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\CentralTelefonica\ClassesCentralita\obj\Debug\ClassesCentralita.csprojResolveAssemblyReference.cache
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\CentralTelefonica\ClassesCentralita\obj\Debug\ClassesCentralita.csproj.CoreCompileInputs.cache
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\CentralTelefonica\ClassesCentralita\obj\Debug\ClassesCentralita.dll
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\CentralTelefonica\ClassesCentralita\obj\Debug\ClassesCentralita.pdb

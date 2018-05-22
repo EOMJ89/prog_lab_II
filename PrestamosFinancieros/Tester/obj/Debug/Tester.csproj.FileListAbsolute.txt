@@ -1,9 +1,0 @@
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\Tester\bin\Debug\Tester.exe
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\Tester\bin\Debug\Tester.pdb
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\Tester\bin\Debug\EntidadFinanciera.dll
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\Tester\bin\Debug\EntidadFinanciera.pdb
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\Tester\obj\Debug\Tester.csprojResolveAssemblyReference.cache
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\Tester\obj\Debug\Tester.csproj.CoreCompileInputs.cache
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\Tester\obj\Debug\Tester.csproj.CopyComplete
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\Tester\obj\Debug\Tester.exe
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\PrestamosFinancieros\Tester\obj\Debug\Tester.pdb

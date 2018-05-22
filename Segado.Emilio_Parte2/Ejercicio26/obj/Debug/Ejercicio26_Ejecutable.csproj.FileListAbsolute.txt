@@ -5,3 +5,6 @@ C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio26\bin
 C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio26\obj\Debug\Ejercicio26.exe
 C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio26\obj\Debug\Ejercicio26.pdb
 C:\Users\emili\Documents\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio26\obj\Debug\Ejercicio26_Ejecutable.csprojAssemblyReference.cache
+F:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio26\bin\Debug\Ejercicio26.exe.config
+F:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio26\obj\Debug\Ejercicio26.exe
+F:\Emilio\UtnFra\Prog-Lab II\Segado.Emilio_Parte2\Ejercicio26\obj\Debug\Ejercicio26.pdb

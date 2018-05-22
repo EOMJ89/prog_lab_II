@@ -6,3 +6,13 @@ D:\Segado.Emilio\ConsoleApplication1\bin\Debug\Entidades.dll
 D:\Segado.Emilio\ConsoleApplication1\bin\Debug\Entidades.pdb
 D:\Segado.Emilio\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 D:\Segado.Emilio\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Parciales\Segado.Emilio-1erP\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Parciales\Segado.Emilio-1erP\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Parciales\Segado.Emilio-1erP\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Parciales\Segado.Emilio-1erP\ConsoleApplication1\bin\Debug\Entidades.dll
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Parciales\Segado.Emilio-1erP\ConsoleApplication1\bin\Debug\Entidades.pdb
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Parciales\Segado.Emilio-1erP\ConsoleApplication1\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Parciales\Segado.Emilio-1erP\ConsoleApplication1\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Parciales\Segado.Emilio-1erP\ConsoleApplication1\obj\Debug\Test.csproj.CopyComplete
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Parciales\Segado.Emilio-1erP\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\emili\Documents\UtnFra\Prog-Lab II\Parciales\Segado.Emilio-1erP\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

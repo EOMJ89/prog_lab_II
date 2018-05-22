@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Entidades.Autor">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAACAAAAAAAAAAAAAAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>Clases.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Libro">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAQgBAAAAgAgAAAAAAAAAAAAAAAAAAAAImA=</HashCode>
+      <FileName>Clases.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Manual">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAABAAAAAABAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>Clases.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Novela">
+    <Position X="8" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAABAAAAABAAAAAAAAAAAAAAAAAAAAiA=</HashCode>
+      <FileName>Clases.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Biblioteca">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAARCQDAAAAAEAAAAAAAAAAAAgAAAAiA=</HashCode>
+      <FileName>Clases.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="EGenero">
+    <Position X="8" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Enumerados.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ETipo">
+    <Position X="5.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAQAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumerados.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ELibro">
+    <Position X="10.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAQAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enumerados.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

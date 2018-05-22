@@ -1,6 +1,0 @@
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\ClasesPersonas\bin\Debug\ClasesPersonas.dll
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\ClasesPersonas\bin\Debug\ClasesPersonas.pdb
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\ClasesPersonas\obj\Debug\ClasesPersonas.csprojResolveAssemblyReference.cache
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\ClasesPersonas\obj\Debug\ClasesPersonas.csproj.CoreCompileInputs.cache
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\ClasesPersonas\obj\Debug\ClasesPersonas.dll
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\Equipo\ClasesPersonas\obj\Debug\ClasesPersonas.pdb

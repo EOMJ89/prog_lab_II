@@ -1,6 +1,0 @@
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\JugosClases\obj\Debug\EstanteClases.csprojResolveAssemblyReference.cache
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\JugosClases\obj\Debug\EstanteClases.csproj.CoreCompileInputs.cache
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\JugosClases\bin\Debug\JugosClases.dll
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\JugosClases\bin\Debug\JugosClases.pdb
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\JugosClases\obj\Debug\JugosClases.dll
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\EstanteJugos\JugosClases\obj\Debug\JugosClases.pdb

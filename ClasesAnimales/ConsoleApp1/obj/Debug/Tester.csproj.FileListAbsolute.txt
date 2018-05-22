@@ -1,9 +1,0 @@
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ConsoleApp1\bin\Debug\ConsoleApp1.exe
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ConsoleApp1\bin\Debug\ClasesAnimales.dll
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ConsoleApp1\bin\Debug\ClasesAnimales.pdb
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ConsoleApp1\obj\Debug\Tester.csprojResolveAssemblyReference.cache
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ConsoleApp1\obj\Debug\Tester.csproj.CoreCompileInputs.cache
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ConsoleApp1\obj\Debug\Tester.csproj.CopyComplete
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ConsoleApp1\obj\Debug\ConsoleApp1.exe
-C:\Users\emili\Documents\UtnFra\Prog-Lab II\ClasesAnimales\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
