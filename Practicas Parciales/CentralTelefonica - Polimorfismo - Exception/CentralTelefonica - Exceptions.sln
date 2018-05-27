@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaPolimorfismo", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassesCentralita", "ClassesCentralita\ClassesCentralita.csproj", "{43D8BEEB-ACA4-440B-9A9C-5EE5F4E4C26B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio44", "UnitTestProject1\Ejercicio44.csproj", "{565BDD88-2D9E-4234-9F6F-52319AEAFE44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{43D8BEEB-ACA4-440B-9A9C-5EE5F4E4C26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43D8BEEB-ACA4-440B-9A9C-5EE5F4E4C26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43D8BEEB-ACA4-440B-9A9C-5EE5F4E4C26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{565BDD88-2D9E-4234-9F6F-52319AEAFE44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565BDD88-2D9E-4234-9F6F-52319AEAFE44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565BDD88-2D9E-4234-9F6F-52319AEAFE44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565BDD88-2D9E-4234-9F6F-52319AEAFE44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

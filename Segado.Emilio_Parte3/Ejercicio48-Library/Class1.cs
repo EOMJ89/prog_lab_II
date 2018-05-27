@@ -144,11 +144,11 @@ namespace Ejercicio36_Library
         { return !(a1 == a2); }
     }
 
-    public class Competencia
+    public class Competencia<T> where T : VehiculoDeCarrera
     {
         private Int16 _cantidadCompetidores;
         private Int16 _cantidadVueltas;
-        private List<VehiculoDeCarrera> _competidores;
+        private List<T> _competidores;
         private TipoCompetencia _tipo;
 
         public Int16 CantidadCompetidores
@@ -165,7 +165,7 @@ namespace Ejercicio36_Library
 
         public VehiculoDeCarrera this[int i] { get { return this._competidores.ElementAt(i); } }
 
-        public List<VehiculoDeCarrera> Competidores
+        public List<T> Competidores
         { get { return this._competidores; } }
 
         public TipoCompetencia Tipo
@@ -176,7 +176,7 @@ namespace Ejercicio36_Library
 
         #region Constructores
         private Competencia()
-        { this._competidores = new List<VehiculoDeCarrera>(); }
+        { this._competidores = new List<T>(); }
 
         public Competencia(Int16 cantidadVueltas, Int16 cantidadCompetidores, TipoCompetencia tipo) : this()
         {
@@ -186,7 +186,7 @@ namespace Ejercicio36_Library
         }
         #endregion
 
-        public static Boolean operator +(Competencia c, VehiculoDeCarrera a)
+        public static Boolean operator +(Competencia<T> c, T a)
         {
             Boolean retorno = false;
             Random combustible = new Random();
@@ -211,7 +211,7 @@ namespace Ejercicio36_Library
             return retorno;
         }
 
-        public static Boolean operator -(Competencia c, VehiculoDeCarrera a)
+        public static Boolean operator -(Competencia<T> c, T a)
         {
             Boolean retorno = false;
 
@@ -224,7 +224,7 @@ namespace Ejercicio36_Library
             return retorno;
         }
 
-        public static Boolean operator ==(Competencia c, VehiculoDeCarrera a)
+        public static Boolean operator ==(Competencia<T> c, T a)
         {
             Boolean retorno = false;
 
@@ -236,7 +236,7 @@ namespace Ejercicio36_Library
                         {
                             if (a is AutoF1)
                             {
-                                if ((AutoF1)autoA == (AutoF1)a)
+                                if ((AutoF1)autoA == a)
                                 { retorno = true; }
                             }
                             else
@@ -247,7 +247,7 @@ namespace Ejercicio36_Library
                         {
                             if (a is MotoCross)
                             {
-                                if ((MotoCross)autoA == (MotoCross)a)
+                                if ((MotoCross)autoA == a)
                                 { retorno = true; }
                             }
                             else
@@ -262,7 +262,7 @@ namespace Ejercicio36_Library
             return retorno;
         }
 
-        public static Boolean operator !=(Competencia c, VehiculoDeCarrera a)
+        public static Boolean operator !=(Competencia<T> c, T a)
         {
             Boolean retorno = false;
             try { retorno = !(c == a); }

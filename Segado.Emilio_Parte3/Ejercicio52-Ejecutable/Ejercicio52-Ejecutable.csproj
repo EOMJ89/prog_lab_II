@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2EA2CC91-E326-4E1B-8453-0401C8606409}</ProjectGuid>
+    <ProjectGuid>{CD09289E-DF13-41B4-838C-76BAEE940797}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ejercicio42</RootNamespace>
-    <AssemblyName>Ejercicio42</AssemblyName>
+    <RootNamespace>Ejercicio52_Ejecutable</RootNamespace>
+    <AssemblyName>Ejercicio52-Ejecutable</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,8 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Ejercicio42-Library">
-      <HintPath>..\Ejercicio42-Library\bin\Debug\Ejercicio42-Library.dll</HintPath>
+    <Reference Include="Ejercicio52">
+      <HintPath>..\Ejercicio52\bin\Debug\Ejercicio52.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

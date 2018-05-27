@@ -6,3 +6,13 @@ D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\bin\Debug\Ejercicio4
 D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\bin\Debug\Ejercicio47-Library.pdb
 D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\obj\Debug\Ejercicio47-Ejecutable.exe
 D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\obj\Debug\Ejercicio47-Ejecutable.pdb
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\bin\Debug\Ejercicio47-Ejecutable.exe.config
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\bin\Debug\Ejercicio47-Ejecutable.exe
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\bin\Debug\Ejercicio47-Ejecutable.pdb
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\bin\Debug\Ejercicio47-Library.dll
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\bin\Debug\Ejercicio47-Library.pdb
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\obj\Debug\Ejercicio47-Ejecutable.csprojAssemblyReference.cache
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\obj\Debug\Ejercicio47-Ejecutable.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\obj\Debug\Ejercicio47-Ejecutable.csproj.CopyComplete
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\obj\Debug\Ejercicio47-Ejecutable.exe
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Ejecutable\obj\Debug\Ejercicio47-Ejecutable.pdb

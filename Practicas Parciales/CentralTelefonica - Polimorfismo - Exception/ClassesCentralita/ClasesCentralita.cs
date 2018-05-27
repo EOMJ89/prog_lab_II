@@ -6,6 +6,15 @@ using System.Threading.Tasks;
 
 namespace ClassesCentralita
 {
+    public interface IGuardar<T>
+    {
+        string RutaDeArchivos { get; set; }
+
+        Boolean Guardar();
+
+        T Leer();
+    }
+
     public abstract class Llamada
     {
         protected double _duracion;
@@ -62,11 +71,13 @@ namespace ClassesCentralita
         { return !(llamada1 == llamada2); }
     }
 
-    public class Local : Llamada
+    public class Local : Llamada, IGuardar<Local>
     {
         protected double _costo;
 
         public override double CostoLlamada { get { return this.CalcularCosto(); } }
+
+        string IGuardar<Local>.RutaDeArchivos { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public Local(string origen, string destino, double duracion, double costoLocal) : base(origen, destino, duracion)
         { this._costo = costoLocal; }
@@ -96,13 +107,25 @@ namespace ClassesCentralita
         {
             return this.Mostrar();
         }
+
+        bool IGuardar<Local>.Guardar()
+        {
+            throw new NotImplementedException();
+        }
+
+        Local IGuardar<Local>.Leer()
+        {
+            throw new NotImplementedException();
+        }
     }
 
-    public class Provincial : Llamada
+    public class Provincial : Llamada, IGuardar<Provincial>
     {
         protected EFranja _franjaHoraria;
 
         public override double CostoLlamada { get { return this.CalcularCosto(); } }
+
+        string IGuardar<Provincial>.RutaDeArchivos { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public Provincial(string origen, string destino, double duracion, EFranja franjaHoraria) : base(origen, destino, duracion)
         { this._franjaHoraria = franjaHoraria; }
@@ -157,9 +180,19 @@ namespace ClassesCentralita
         {
             return this.Mostrar();
         }
+
+        bool IGuardar<Provincial>.Guardar()
+        {
+            throw new NotImplementedException();
+        }
+
+        Provincial IGuardar<Provincial>.Leer()
+        {
+            throw new NotImplementedException();
+        }
     }
 
-    public class Centralita
+    public class Centralita: IGuardar<Llamada>
     {
         public List<Llamada> _listaDeLlamadas;
         protected string _razonSocial;
@@ -172,6 +205,8 @@ namespace ClassesCentralita
 
         public Double GananciaPorProvincial
         { get { return this.CalcularGanancia(ETipoLlamada.Provincial); } }
+
+        string IGuardar<Llamada>.RutaDeArchivos { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         private Centralita()
         { this._listaDeLlamadas = new List<Llamada>(); }
@@ -232,6 +267,17 @@ namespace ClassesCentralita
 
         private void AgregarLlamada(Llamada llamada1)
         { this._listaDeLlamadas.Add(llamada1); }
+
+        bool IGuardar<Llamada>.Guardar()
+        {
+            this.ToString();
+            return true;
+        }
+
+        Llamada IGuardar<Llamada>.Leer()
+        {
+            throw new NotImplementedException();
+        }
 
         public static Boolean operator ==(Centralita centralita1, Llamada llamada1)
         {

@@ -3,3 +3,9 @@ D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Library\bin\Debug\Ejercicio47-L
 D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Library\obj\Debug\Ejercicio47-Library.csprojResolveAssemblyReference.cache
 D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Library\obj\Debug\Ejercicio47-Library.dll
 D:\VisualStudio\Segado.Emilio_Parte3\Ejercicio47-Library\obj\Debug\Ejercicio47-Library.pdb
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Library\bin\Debug\Ejercicio47-Library.dll
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Library\bin\Debug\Ejercicio47-Library.pdb
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Library\obj\Debug\Ejercicio47-Library.csprojAssemblyReference.cache
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Library\obj\Debug\Ejercicio47-Library.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Library\obj\Debug\Ejercicio47-Library.dll
+C:\Users\emili\Documents\GitHub\prog_lab_II\Segado.Emilio_Parte3\Ejercicio47-Library\obj\Debug\Ejercicio47-Library.pdb

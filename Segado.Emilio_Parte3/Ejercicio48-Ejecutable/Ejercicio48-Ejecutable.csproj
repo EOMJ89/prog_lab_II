@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2EA2CC91-E326-4E1B-8453-0401C8606409}</ProjectGuid>
+    <ProjectGuid>{C2220971-9C50-454D-8898-6537D18BA134}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ejercicio42</RootNamespace>
-    <AssemblyName>Ejercicio42</AssemblyName>
+    <RootNamespace>Ejercicio36_Ejecutable</RootNamespace>
+    <AssemblyName>Ejercicio36-Ejecutable</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,8 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Ejercicio42-Library">
-      <HintPath>..\Ejercicio42-Library\bin\Debug\Ejercicio42-Library.dll</HintPath>
+    <Reference Include="Ejercicio36-Library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Ejercicio48-Library\bin\Debug\Ejercicio36-Library.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
