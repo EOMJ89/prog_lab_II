@@ -36,12 +36,26 @@ namespace CentralitaHerencia
             try
             { telefonica += llamada5; } //Intentar -> añadir el Numero a la lista...
             catch (CentralitaException e)
-            { Console.WriteLine(e.Message); }
+            { Console.WriteLine(e.Message + "\nClase: " + e.NombreClase + "\nMetodo: " + e.NombreMetodo); }
             catch (Exception e)
             { Console.WriteLine(e.Message); }
-            
+
             Console.Clear();
             Console.Write(telefonica);
+            Console.ReadLine();
+            Console.Clear();
+
+            ((IGuardar<Centralita>)telefonica).RutaDeArchivos = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\llamadas.txt";
+
+            if (((IGuardar<Centralita>)telefonica).Guardar())
+            { Console.WriteLine("Guardado Exitoso"); }
+            else { Console.WriteLine("Error en Guardado"); }
+
+
+            Centralita telefonica2 = new Centralita("");
+            ((IGuardar<Centralita>)telefonica2).RutaDeArchivos = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\llamadas.txt";
+
+            Console.Write(((IGuardar<Centralita>)telefonica2).Leer());
             Console.ReadLine();
 
         }

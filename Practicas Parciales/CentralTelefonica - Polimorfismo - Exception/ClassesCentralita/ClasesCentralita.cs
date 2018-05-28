@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace ClassesCentralita
 {
@@ -39,9 +40,9 @@ namespace ClassesCentralita
         protected virtual string Mostrar()
         {
             StringBuilder stringBuild = new StringBuilder();
-            stringBuild.AppendFormat("Duracion: {0,10}\n", this.Duracion.ToString());
-            stringBuild.AppendFormat("Destino: {0,10}\n", this.NroDestino);
-            stringBuild.AppendFormat("Origen: {0,10}\n", this.NroOrigen);
+            stringBuild.AppendFormat("{0}-", this.Duracion.ToString());
+            stringBuild.AppendFormat("{0}-", this.NroDestino);
+            stringBuild.AppendFormat("{0}", this.NroOrigen);
 
             return stringBuild.ToString();
         }
@@ -85,7 +86,7 @@ namespace ClassesCentralita
         protected override string Mostrar()
         {
             StringBuilder stringBuild = new StringBuilder(base.Mostrar());
-            stringBuild.AppendFormat("Costo: {0,10}\n", this.CostoLlamada.ToString());
+            stringBuild.AppendFormat("-{0}", this.CostoLlamada.ToString());
             return stringBuild.ToString();
         }
 
@@ -133,7 +134,7 @@ namespace ClassesCentralita
         protected override string Mostrar()
         {
             StringBuilder stringBuild = new StringBuilder(base.Mostrar());
-            stringBuild.AppendFormat("Franja: {0,10}\n", this._franjaHoraria.ToString());
+            stringBuild.AppendFormat("-{0}", this._franjaHoraria.ToString());
             return stringBuild.ToString();
         }
 
@@ -192,10 +193,11 @@ namespace ClassesCentralita
         }
     }
 
-    public class Centralita: IGuardar<Llamada>
+    public class Centralita : IGuardar<Centralita>
     {
         public List<Llamada> _listaDeLlamadas;
         protected string _razonSocial;
+        private string _ruta;
 
         public Double GananciaPorTotal
         { get { return this.CalcularGanancia(ETipoLlamada.Todas); } }
@@ -206,12 +208,13 @@ namespace ClassesCentralita
         public Double GananciaPorProvincial
         { get { return this.CalcularGanancia(ETipoLlamada.Provincial); } }
 
-        string IGuardar<Llamada>.RutaDeArchivos { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        string IGuardar<Centralita>.RutaDeArchivos { get { return this._ruta; } set { this._ruta = value; } }
 
         private Centralita()
         { this._listaDeLlamadas = new List<Llamada>(); }
 
-        public Centralita(string razonSocial) : this()
+        public Centralita(string razonSocial) : 
+            this()
         { this._razonSocial = razonSocial; }
 
         public double CalcularGanancia(ETipoLlamada tipollamada)
@@ -268,15 +271,32 @@ namespace ClassesCentralita
         private void AgregarLlamada(Llamada llamada1)
         { this._listaDeLlamadas.Add(llamada1); }
 
-        bool IGuardar<Llamada>.Guardar()
+        bool IGuardar<Centralita>.Guardar()
         {
-            this.ToString();
-            return true;
+            return AdministradorDeArchivos.Escribir(((IGuardar<Centralita>)this).RutaDeArchivos, this.ToString(), false);
         }
 
-        Llamada IGuardar<Llamada>.Leer()
+        Centralita IGuardar<Centralita>.Leer()
         {
-            throw new NotImplementedException();
+            string datos = "";
+            AdministradorDeArchivos.Leer(((IGuardar<Centralita>)this).RutaDeArchivos, out datos);
+
+            string[] lineas = datos.Split('\n');
+
+            Centralita retorno = new Centralita();
+            retorno._razonSocial = lineas[0].Trim();
+
+            for (int i = 2; i < lineas.Length-2; i++)
+            {
+                string[] datosLinea = lineas[i].Split('-');
+
+                if (((datosLinea[3].Trim()).Contains("Franja_1") || (datosLinea[3].Trim()).Contains("Franja_2") || (datosLinea[3].Trim()).Contains("Franja_3")))
+                { retorno += new Provincial(datosLinea[2], datosLinea[1], double.Parse(datosLinea[0]), ((EFranja)Enum.Parse(typeof(EFranja), datosLinea[3].Trim()))); }
+                else
+                { retorno += new Local(datosLinea[2], datosLinea[1], double.Parse(datosLinea[0]), double.Parse(datosLinea[3].Trim())); }
+            }
+
+            return retorno;
         }
 
         public static Boolean operator ==(Centralita centralita1, Llamada llamada1)
@@ -303,7 +323,15 @@ namespace ClassesCentralita
             if (centralita1 != llamada1)
             { centralita1.AgregarLlamada(llamada1); }
             else
-            { throw new CentralitaException("La llamada ya está en la lista", llamada1.ToString(), "Operador + de centralita"); }
+            {
+                string typeLlamada = "";
+                if (llamada1 is Provincial)
+                { typeLlamada = "Pronvicial"; }
+                else
+                { typeLlamada = "Local"; }
+
+                throw new CentralitaException("La llamada ya está en la lista", typeLlamada, "Operador + de centralita");
+            }
 
             return centralita1;
         }
@@ -330,6 +358,35 @@ namespace ClassesCentralita
         {
             this._nombreMetodo = nombreMetodo;
             this._nombreClase = nombreClase;
+        }
+    }
+
+    public static class AdministradorDeArchivos
+    {
+        public static Boolean Escribir(string path, string whatToWrite, bool appendOrOverwrite)
+        {
+            Boolean retorno = false;
+            StreamWriter auxGuardado;
+
+            if ((auxGuardado = new StreamWriter(path, appendOrOverwrite)) != null)
+            {
+                auxGuardado.WriteLine(whatToWrite);
+                retorno = true;
+            }
+            auxGuardado.Close();
+
+            return retorno;
+        }
+
+        public static Boolean Leer(string path, out string readText)
+        {
+            Boolean retorno = false;
+
+            StreamReader auxLectura = new StreamReader(path);
+            if ((readText = auxLectura.ReadToEnd()) != null)
+            { retorno = true; }
+            auxLectura.Close();
+            return retorno;
         }
     }
 }
