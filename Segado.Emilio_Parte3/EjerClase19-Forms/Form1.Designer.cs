@@ -37,6 +37,10 @@
             this.btnGuardar = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.btnTraer = new System.Windows.Forms.Button();
+            this.btnSerializar = new System.Windows.Forms.Button();
+            this.btnDeserializar = new System.Windows.Forms.Button();
+            this.btnSerializarXML = new System.Windows.Forms.Button();
+            this.btnDeserializarXML = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblNombre
@@ -108,11 +112,55 @@
             this.btnTraer.UseVisualStyleBackColor = true;
             this.btnTraer.Click += new System.EventHandler(this.btnTraer_Click);
             // 
+            // btnSerializar
+            // 
+            this.btnSerializar.Location = new System.Drawing.Point(12, 143);
+            this.btnSerializar.Name = "btnSerializar";
+            this.btnSerializar.Size = new System.Drawing.Size(75, 23);
+            this.btnSerializar.TabIndex = 8;
+            this.btnSerializar.Text = "&SerBin";
+            this.btnSerializar.UseVisualStyleBackColor = true;
+            this.btnSerializar.Click += new System.EventHandler(this.btnSerializar_Click);
+            // 
+            // btnDeserializar
+            // 
+            this.btnDeserializar.Location = new System.Drawing.Point(108, 143);
+            this.btnDeserializar.Name = "btnDeserializar";
+            this.btnDeserializar.Size = new System.Drawing.Size(75, 23);
+            this.btnDeserializar.TabIndex = 9;
+            this.btnDeserializar.Text = "&DeserBin";
+            this.btnDeserializar.UseVisualStyleBackColor = true;
+            this.btnDeserializar.Click += new System.EventHandler(this.btnDeserializar_Click);
+            // 
+            // btnSerializarXML
+            // 
+            this.btnSerializarXML.Location = new System.Drawing.Point(12, 172);
+            this.btnSerializarXML.Name = "btnSerializarXML";
+            this.btnSerializarXML.Size = new System.Drawing.Size(75, 23);
+            this.btnSerializarXML.TabIndex = 10;
+            this.btnSerializarXML.Text = "&SerXml";
+            this.btnSerializarXML.UseVisualStyleBackColor = true;
+            this.btnSerializarXML.Click += new System.EventHandler(this.btnSerializarXML_Click);
+            // 
+            // btnDeserializarXML
+            // 
+            this.btnDeserializarXML.Location = new System.Drawing.Point(108, 172);
+            this.btnDeserializarXML.Name = "btnDeserializarXML";
+            this.btnDeserializarXML.Size = new System.Drawing.Size(75, 23);
+            this.btnDeserializarXML.TabIndex = 11;
+            this.btnDeserializarXML.Text = "&DeserXml";
+            this.btnDeserializarXML.UseVisualStyleBackColor = true;
+            this.btnDeserializarXML.Click += new System.EventHandler(this.btnDeserializarXML_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(197, 145);
+            this.ClientSize = new System.Drawing.Size(197, 208);
+            this.Controls.Add(this.btnDeserializarXML);
+            this.Controls.Add(this.btnSerializarXML);
+            this.Controls.Add(this.btnDeserializar);
+            this.Controls.Add(this.btnSerializar);
             this.Controls.Add(this.btnTraer);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.cboPuesto);
@@ -139,6 +187,10 @@
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.Button btnTraer;
+        private System.Windows.Forms.Button btnSerializar;
+        private System.Windows.Forms.Button btnDeserializar;
+        private System.Windows.Forms.Button btnSerializarXML;
+        private System.Windows.Forms.Button btnDeserializarXML;
     }
 }
 

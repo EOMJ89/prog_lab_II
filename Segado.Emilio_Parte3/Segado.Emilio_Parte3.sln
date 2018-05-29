@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio47-Library", "Ejercicio47-Library\Ejercicio47-Library.csproj", "{9761B18A-C42B-4C18-8735-79A614C8B5B4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio47-Ejecutable", "Ejercicio47-Ejecutable\Ejercicio47-Ejecutable.csproj", "{A7C2587B-E283-4132-BF2C-9E5BF4723FAC}"
@@ -34,6 +32,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio52", "Ejercicio52\Ejercicio52.csproj", "{0C6A62DE-8C99-4146-AA26-16D7B70EA16A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio52-Ejecutable", "Ejercicio52-Ejecutable\Ejercicio52-Ejecutable.csproj", "{CD09289E-DF13-41B4-838C-76BAEE940797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase20-Library", "EjerClase20-Library\EjerClase20-Library.csproj", "{DF5BF0F9-BE17-4C89-B91B-5979BB50694E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase20-ejecutable", "EjerClase20-ejecutable\EjerClase20-ejecutable.csproj", "{8E76B11E-54D5-4194-9666-6FDBEC46BB3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,14 @@ Global
 		{CD09289E-DF13-41B4-838C-76BAEE940797}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD09289E-DF13-41B4-838C-76BAEE940797}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD09289E-DF13-41B4-838C-76BAEE940797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5BF0F9-BE17-4C89-B91B-5979BB50694E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5BF0F9-BE17-4C89-B91B-5979BB50694E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5BF0F9-BE17-4C89-B91B-5979BB50694E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5BF0F9-BE17-4C89-B91B-5979BB50694E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E76B11E-54D5-4194-9666-6FDBEC46BB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E76B11E-54D5-4194-9666-6FDBEC46BB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E76B11E-54D5-4194-9666-6FDBEC46BB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E76B11E-54D5-4194-9666-6FDBEC46BB3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

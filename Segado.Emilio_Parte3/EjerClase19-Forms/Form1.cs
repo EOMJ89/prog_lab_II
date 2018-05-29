@@ -110,7 +110,7 @@ namespace EjerClase19_Forms
                 this.txtNombre.Text = "";
                 this.txtApellido.Text = "";
                 this.cboPuesto.SelectedItem = "";
-                
+
                 string path = this.saveFileDialog1.FileNames[0];
 
                 if (Jugador.TraerUno(path, auxJugador, out jugadorRetorno)) //Si el jugador se encontraba dentro de la lista y jugadorRetorno ahora es diferente de null...
@@ -123,6 +123,38 @@ namespace EjerClase19_Forms
                 else
                 { MessageBox.Show("Jugador no encontrado!"); }
             }
+        }
+
+        private void btnSerializar_Click(object sender, EventArgs e)
+        {
+            Jugador auxJugador = new Jugador(this.txtNombre.Text, this.txtApellido.Text, ((Jugador.EPuesto)this.cboPuesto.SelectedItem));
+
+            ((ISerializableBinario)auxJugador).Serializar();
+            MessageBox.Show("Serializado");
+        }
+
+        private void btnDeserializar_Click(object sender, EventArgs e)
+        {
+            Jugador auxJugador = new Jugador("", "", Jugador.EPuesto.Arquero);
+            Jugador auxJugador2 = ((ISerializableBinario)auxJugador).Deserializar();
+
+            MessageBox.Show("DeSerializado\n" + auxJugador2.ToString());
+        }
+
+        private void btnSerializarXML_Click(object sender, EventArgs e)
+        {
+            Jugador auxJugador = new Jugador(this.txtNombre.Text, this.txtApellido.Text, ((Jugador.EPuesto)this.cboPuesto.SelectedItem));
+
+            ((ISerializableXML)auxJugador).Serializar(); //Requiere que la clase posea un constructor por default, y que todos los atributos a serializar sean publicos o tengan propiedades de lecto-escritura
+            MessageBox.Show("Serializado");
+        }
+
+        private void btnDeserializarXML_Click(object sender, EventArgs e)
+        {
+            Jugador auxJugador = new Jugador("", "", Jugador.EPuesto.Arquero);
+            Jugador auxJugador2 = ((ISerializableXML)auxJugador).Deserializar();
+
+            MessageBox.Show("DeSerializado\n" + auxJugador2.ToString());
         }
     }
 }

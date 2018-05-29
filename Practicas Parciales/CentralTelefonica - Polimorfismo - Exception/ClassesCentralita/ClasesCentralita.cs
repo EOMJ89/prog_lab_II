@@ -356,8 +356,11 @@ namespace ClassesCentralita
 
         public CentralitaException(String mensaje, String nombreClase, String nombreMetodo, Exception innerException) : base(mensaje, innerException)
         {
-            this._nombreMetodo = nombreMetodo;
-            this._nombreClase = nombreClase;
+            if(innerException is CentralitaException)
+	    {
+		this._nombreMetodo = ((CentralitaException)innerException)._nombreMetodo;
+       		this._nombreClase = ((CentralitaException)innerException)._nombreClase;
+	    }
         }
     }
 
