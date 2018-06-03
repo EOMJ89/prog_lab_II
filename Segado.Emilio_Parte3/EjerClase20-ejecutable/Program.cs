@@ -27,29 +27,28 @@ namespace EjerClase20_ejecutable
             aula1.Lista.Add(profeB);
             aula1.Lista.Add(profeC);
 
-            Console.WriteLine(alA);
-            Console.WriteLine(alB);
-            Console.WriteLine(alC);
-            Console.WriteLine(profeC);
-            Console.WriteLine(profeB);
-            Console.WriteLine(profeC);
-            Console.ReadLine();
-            Console.Clear();
+            //Console.WriteLine(alA);
+            //Console.WriteLine(alB);
+            //Console.WriteLine(alC);
+            //Console.WriteLine(profeC);
+            //Console.WriteLine(profeB);
+            //Console.WriteLine(profeC);
+            //Console.ReadLine();
+            //Console.Clear();
 
 
-            Console.WriteLine(aula1.ToString());
-            /*
-             * 
-            if (GuardarXML(@"alumno.xml", alA))
-            { Console.WriteLine("Serializado exitosamente"); }
+            //Console.WriteLine(aula1.ToString());
 
-            Alumno alZ = new Alumno();
+            //if (GuardarXML(@"alumno.xml", alA))
+            //{ Console.WriteLine("Serializado exitosamente"); }
 
-            if (LeerXML(@"alumno.xml", out alZ))
-            {
-                Console.WriteLine("Deserializado exitosamente");
-                Console.WriteLine(alZ.ToString());
-            }*/
+            //Alumno alZ = new Alumno();
+
+            //if (LeerXML(@"alumno.xml", out alZ))
+            //{
+            //    Console.WriteLine("Deserializado exitosamente");
+            //    Console.WriteLine(alZ.ToString());
+            //}
 
             /*
             XML<Alumno> serializerAlumno = new XML<Alumno>();
@@ -64,20 +63,20 @@ namespace EjerClase20_ejecutable
                 Console.WriteLine("Deserializado exitosamente");
                 Console.WriteLine(alZ.ToString());
             }
-            Console.WriteLine();*/
+            Console.WriteLine();
 
-            /*
             XML<Profesor> serializerProfesor = new XML<Profesor>();
             if (serializerProfesor.GuardarXML(@"alumno.xml", profeA))
             { Console.WriteLine("Serializado exitosamente"); }
 
             Profesor profeZ = new Profesor();
+
             if (serializerProfesor.LeerXML(@"alumno.xml", out profeZ))
             {
                 Console.WriteLine("Deserializado exitosamente");
                 Console.WriteLine(profeZ.ToString());
-            }*/
-
+            }
+            */
             /*XML<List<Alumno>> serializerListaAlumno = new XML<List<Alumno>>();
             List<Alumno> listaAlumnos = new List<Alumno>();
             listaAlumnos.Add(alA);
@@ -96,17 +95,17 @@ namespace EjerClase20_ejecutable
             if (serializerListaProfesor.GuardarXML(@"alumno.xml", listaProfesor))
             { Console.WriteLine("Serializado exitosamente"); */
 
-            /*
-            XML<List<Persona>> serializerListaPersona = new XML<List<Persona>>();
-            List<Persona> listaPersona = new List<Persona>();
-            listaPersona.Add(alA);
-            listaPersona.Add(profeA);
-            listaPersona.Add(alC);
 
-            if (serializerListaPersona.GuardarXML(@"alumno.xml", listaPersona)) //Da excepction de generacion de archivo porque la variable de control es la clase base, y no irá a serializar las clases heradas, se arregla con [XMLInclude] 
-            { Console.WriteLine("Serializado exitosamente"); }
-            else
-            { Console.WriteLine("Serializacion sin exito"); }*/
+            //XML<List<Persona>> serializerListaPersona = new XML<List<Persona>>();
+            //List<Persona> listaPersona = new List<Persona>();
+            //listaPersona.Add(alA);
+            //listaPersona.Add(profeA);
+            //listaPersona.Add(alC);
+
+            //if (serializerListaPersona.GuardarXML(@"alumno.xml", listaPersona)) //Da excepction de generacion de archivo porque la variable de control es la clase base, y no irá a serializar las clases heradas, se arregla con [XMLInclude] 
+            //{ Console.WriteLine("Serializado exitosamente"); }
+            //else
+            //{ Console.WriteLine("Serializacion sin exito"); }
 
             XML<Aula> serializerAula = new XML<Aula>();
             Aula aula2 = new Aula();
@@ -137,7 +136,7 @@ namespace EjerClase20_ejecutable
                 serializerXml.Serialize(fileEncoding, alumnoAGuardar); /*Se para el archivo que escribe (XmlTextWriter) y el objeto a serializar*/
                 retorno = true;
             }
-            catch (Exception e) { }
+            catch (Exception) { }
 
             fileEncoding.Close();
             return retorno;
@@ -147,6 +146,7 @@ namespace EjerClase20_ejecutable
         {
             Boolean retorno = false;
             aRecuperar = new Alumno();
+
             XmlTextReader filePath = new XmlTextReader(path); //Path y juego de caracteres con el que se escribió
             XmlSerializer serializerXml = new XmlSerializer(typeof(Alumno));
 
@@ -155,22 +155,19 @@ namespace EjerClase20_ejecutable
                 aRecuperar = ((Alumno)serializerXml.Deserialize(filePath));
                 retorno = true;
             }
-            catch (Exception e)
-            { }
+            catch (Exception)            { }
+
             filePath.Close();
             return retorno;
         }
     }
 
-    /*Explicacion rapida sobre usar una interface generic para guardar clases
     interface algo<T>
     { void mostrar(T algo);}
 
     class a : algo<int>
     {
         void algo<int>.mostrar(int algo)
-        {
-            Console.WriteLine(algo);
-        }
-    }*/
+        {            Console.WriteLine(algo);        }
+    }
 }

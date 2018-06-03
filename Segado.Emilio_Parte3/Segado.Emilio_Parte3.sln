@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase20-Library", "Ejer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase20-ejecutable", "EjerClase20-ejecutable\EjerClase20-ejecutable.csproj", "{8E76B11E-54D5-4194-9666-6FDBEC46BB3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase21_Library", "EjerClase21_Library\EjerClase21_Library.csproj", "{4020BB58-5FD6-4F95-8897-2DB1E168F20C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase21_Exe", "EjerClase21_Exe\EjerClase21_Exe.csproj", "{BF260797-FF58-46C0-B8C5-1C2A5DF74E11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -115,6 +119,14 @@ Global
 		{8E76B11E-54D5-4194-9666-6FDBEC46BB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E76B11E-54D5-4194-9666-6FDBEC46BB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E76B11E-54D5-4194-9666-6FDBEC46BB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4020BB58-5FD6-4F95-8897-2DB1E168F20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4020BB58-5FD6-4F95-8897-2DB1E168F20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4020BB58-5FD6-4F95-8897-2DB1E168F20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4020BB58-5FD6-4F95-8897-2DB1E168F20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF260797-FF58-46C0-B8C5-1C2A5DF74E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF260797-FF58-46C0-B8C5-1C2A5DF74E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF260797-FF58-46C0-B8C5-1C2A5DF74E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF260797-FF58-46C0-B8C5-1C2A5DF74E11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

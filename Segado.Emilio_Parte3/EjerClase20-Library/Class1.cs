@@ -10,7 +10,7 @@ namespace EjerClase20_Library
 {
     [Serializable]
     [XmlInclude(typeof(Alumno))]
-    [XmlInclude(typeof(Profesor))] //Si hay más clases heredas, de las clases ya heredaas, la clase base solo tiene a clases heredadas directas, luego cada hijo tiene los XmlInclude de sus propias herencias directas.
+    [XmlInclude(typeof(Profesor))] //Si hay más clases heredas, de las clases ya heredaas, la clase base solo tiene a sus hijos directos, luego cada hijo tiene a su "nieto" correspondiente.
     public abstract class Persona
     {
         protected string _nombre;
@@ -54,7 +54,7 @@ namespace EjerClase20_Library
             : base(nombre, apellido, dni)
         { this._titulo = titulo; }
 
-        public Profesor() : this("", "", 0, "") { }
+        public Profesor() : this("", "", 0,"") { }
 
         public override string ToString()
         { return base.ToString() + "-" + this._titulo; }
@@ -112,7 +112,8 @@ namespace EjerClase20_Library
                 serializerXml.Serialize(fileEncoding, alumnoAGuardar); /*Se para el archivo que escribe (XmlTextWriter) y el objeto a serializar*/
                 retorno = true;
             }
-            catch (Exception e) { Console.WriteLine(e.Message); }
+            catch (Exception e) { }
+
             fileEncoding.Close();
             return retorno;
         }
@@ -126,10 +127,11 @@ namespace EjerClase20_Library
 
             try
             {
-                aRecuperar = ((T)serializerXml.Deserialize(filePath)); 
+                aRecuperar = ((T)serializerXml.Deserialize(filePath));
                 retorno = true;
             }
-            catch (Exception e) { Console.WriteLine(e.Message); }
+            catch (Exception e)
+            { }
             filePath.Close();
             return retorno;
         }
