@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using System.Xml.Serialization;
+using System.Xml;
+
 
 namespace ClassesCentralita
 {
@@ -16,17 +19,20 @@ namespace ClassesCentralita
         T Leer();
     }
 
+    [Serializable]
+    [XmlInclude(typeof(Local))]
+    [XmlInclude(typeof(Provincial))]
     public abstract class Llamada
     {
         protected double _duracion;
         protected string _nroDestino;
         protected string _nroOrigen;
 
-        public double Duracion { get { return this._duracion; } }
+        public double Duracion { get { return this._duracion; } set { this._duracion = value; } }
 
-        public string NroDestino { get { return this._nroDestino; } }
+        public string NroDestino { get { return this._nroDestino; } set { this._nroDestino = value; } }
 
-        public string NroOrigen { get { return this._nroOrigen; } }
+        public string NroOrigen { get { return this._nroOrigen; } set { this._nroOrigen = value; } }
 
         public abstract double CostoLlamada { get; }
 
@@ -72,16 +78,22 @@ namespace ClassesCentralita
         { return !(llamada1 == llamada2); }
     }
 
+    [Serializable]
     public class Local : Llamada, IGuardar<Local>
     {
         protected double _costo;
+        protected string _ruta;
 
         public override double CostoLlamada { get { return this.CalcularCosto(); } }
 
-        string IGuardar<Local>.RutaDeArchivos { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public double Costo { get { return this._costo; } set { this._costo = value; } }
+
+        string IGuardar<Local>.RutaDeArchivos { get { return this._ruta; } set { this._ruta = value; } }
 
         public Local(string origen, string destino, double duracion, double costoLocal) : base(origen, destino, duracion)
         { this._costo = costoLocal; }
+
+        public Local() : this("", "", 0, 0) { }
 
         protected override string Mostrar()
         {
@@ -111,25 +123,55 @@ namespace ClassesCentralita
 
         bool IGuardar<Local>.Guardar()
         {
-            throw new NotImplementedException();
+            Boolean retorno = false;
+
+            XmlTextWriter fileEncoding = new XmlTextWriter(((IGuardar<Local>)this).RutaDeArchivos, Encoding.UTF8); //Path y juego de caracteres con el que se escribió
+            XmlSerializer serializerXml = new XmlSerializer(typeof(Local)); //Para el tipo de objeto que se quiere serializar
+
+            try
+            {
+                serializerXml.Serialize(fileEncoding, new Local(this._nroOrigen,this._nroDestino,this._duracion, this._costo)); /*Se para el archivo que escribe (XmlTextWriter) y el objeto a serializar*/
+                retorno = true;
+            }
+            catch (Exception e) { }
+
+            fileEncoding.Close();
+            return retorno;
         }
 
         Local IGuardar<Local>.Leer()
         {
-            throw new NotImplementedException();
+            Local retorno = new Local("a", "b", 0, 0);
+            XmlTextReader filePath = new XmlTextReader(((IGuardar<Local>)this).RutaDeArchivos); //Path y juego de caracteres con el que se escribió
+            XmlSerializer serializerXml = new XmlSerializer(typeof(Local));
+
+            try
+            {
+                retorno = ((Local)serializerXml.Deserialize(filePath));
+            }
+            catch (Exception e) { }
+            filePath.Close();
+
+            return retorno;
         }
     }
 
+    [Serializable]
     public class Provincial : Llamada, IGuardar<Provincial>
     {
         protected EFranja _franjaHoraria;
+        private string _ruta;
 
         public override double CostoLlamada { get { return this.CalcularCosto(); } }
 
-        string IGuardar<Provincial>.RutaDeArchivos { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public EFranja FranjaHoraria { get { return this._franjaHoraria; } set { this._franjaHoraria = value; } }
+
+        string IGuardar<Provincial>.RutaDeArchivos { get {return this._ruta; } set { this._ruta = value; } }
 
         public Provincial(string origen, string destino, double duracion, EFranja franjaHoraria) : base(origen, destino, duracion)
         { this._franjaHoraria = franjaHoraria; }
+
+        public Provincial() : this("", "", 0, EFranja.Franja_1) { }
 
         protected override string Mostrar()
         {
@@ -184,12 +226,36 @@ namespace ClassesCentralita
 
         bool IGuardar<Provincial>.Guardar()
         {
-            throw new NotImplementedException();
+            Boolean retorno = false;
+
+            XmlTextWriter fileEncoding = new XmlTextWriter(((IGuardar<Provincial>)this).RutaDeArchivos, Encoding.UTF8); //Path y juego de caracteres con el que se escribió
+            XmlSerializer serializerXml = new XmlSerializer(typeof(Provincial)); //Para el tipo de objeto que se quiere serializar
+
+            try
+            {
+                serializerXml.Serialize(fileEncoding, this); /*Se para el archivo que escribe (XmlTextWriter) y el objeto a serializar*/
+                retorno = true;
+            }
+            catch (Exception e) { }
+
+            fileEncoding.Close();
+            return retorno;
         }
 
         Provincial IGuardar<Provincial>.Leer()
         {
-            throw new NotImplementedException();
+            Provincial retorno = new Provincial("a", "b", 0, 0);
+            XmlTextReader filePath = new XmlTextReader(((IGuardar<Provincial>)this).RutaDeArchivos); //Path y juego de caracteres con el que se escribió
+            XmlSerializer serializerXml = new XmlSerializer(typeof(Provincial));
+
+            try
+            {
+                retorno = ((Provincial)serializerXml.Deserialize(filePath));
+            }
+            catch (Exception e) { }
+            filePath.Close();
+
+            return retorno;
         }
     }
 
@@ -213,7 +279,7 @@ namespace ClassesCentralita
         private Centralita()
         { this._listaDeLlamadas = new List<Llamada>(); }
 
-        public Centralita(string razonSocial) : 
+        public Centralita(string razonSocial) :
             this()
         { this._razonSocial = razonSocial; }
 
@@ -286,7 +352,7 @@ namespace ClassesCentralita
             Centralita retorno = new Centralita();
             retorno._razonSocial = lineas[0].Trim();
 
-            for (int i = 2; i < lineas.Length-2; i++)
+            for (int i = 2; i < lineas.Length - 2; i++)
             {
                 string[] datosLinea = lineas[i].Split('-');
 
@@ -356,11 +422,11 @@ namespace ClassesCentralita
 
         public CentralitaException(String mensaje, String nombreClase, String nombreMetodo, Exception innerException) : base(mensaje, innerException)
         {
-            if(innerException is CentralitaException)
-	    {
-		this._nombreMetodo = ((CentralitaException)innerException)._nombreMetodo;
-       		this._nombreClase = ((CentralitaException)innerException)._nombreClase;
-	    }
+            if (innerException is CentralitaException)
+            {
+                this._nombreMetodo = ((CentralitaException)innerException)._nombreMetodo;
+                this._nombreClase = ((CentralitaException)innerException)._nombreClase;
+            }
         }
     }
 

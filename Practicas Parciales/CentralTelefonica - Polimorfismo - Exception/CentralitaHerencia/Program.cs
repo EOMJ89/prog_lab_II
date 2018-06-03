@@ -19,7 +19,7 @@ namespace CentralitaHerencia
             Provincial llamada4 = new Provincial("D", "T", 21, EFranja.Franja_3);
 
             Provincial llamada5 = new Provincial("J", "g", 22, EFranja.Franja_2);
-
+            /*
             telefonica._listaDeLlamadas.Add(llamada1);
             telefonica._listaDeLlamadas.Add(llamada2);
             telefonica._listaDeLlamadas.Add(llamada3);
@@ -43,8 +43,9 @@ namespace CentralitaHerencia
             Console.Clear();
             Console.Write(telefonica);
             Console.ReadLine();
-            Console.Clear();
+            Console.Clear();*/
 
+            /*
             ((IGuardar<Centralita>)telefonica).RutaDeArchivos = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\llamadas.txt";
 
             if (((IGuardar<Centralita>)telefonica).Guardar())
@@ -55,9 +56,35 @@ namespace CentralitaHerencia
             Centralita telefonica2 = new Centralita("");
             ((IGuardar<Centralita>)telefonica2).RutaDeArchivos = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\llamadas.txt";
 
-            Console.Write(((IGuardar<Centralita>)telefonica2).Leer());
-            Console.ReadLine();
+            Console.Write(((IGuardar<Centralita>)telefonica2).Leer());*/
 
+            ((IGuardar<Local>)llamada1).RutaDeArchivos = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\llamadas.txt";
+
+            if (((IGuardar<Local>)llamada1).Guardar())
+            { Console.WriteLine("Guardado Exitoso"); }
+            else { Console.WriteLine("Error en Guardado"); }
+
+
+            Local llamadaRecu1 = new Local("", "", 0, 0);
+            ((IGuardar<Local>)llamadaRecu1).RutaDeArchivos = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\llamadas.txt";
+
+            Console.WriteLine(((IGuardar<Local>)llamadaRecu1).Leer());
+            Console.WriteLine(llamada1);
+            Console.ReadLine();
+            
+            ((IGuardar<Provincial>)llamada2).RutaDeArchivos = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\llamadas.txt";
+
+            if (((IGuardar<Provincial>)llamada2).Guardar())
+            { Console.WriteLine("Guardado Exitoso"); }
+            else { Console.WriteLine("Error en Guardado"); }
+
+
+            Provincial llamadaRecu2 = new Provincial("", "", 0, EFranja.Franja_1);
+            ((IGuardar<Provincial>)llamadaRecu2).RutaDeArchivos = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\llamadas.txt";
+
+            Console.WriteLine(((IGuardar<Provincial>)llamadaRecu2).Leer());
+            Console.WriteLine(llamada2);
+            Console.ReadLine();
         }
     }
 }
