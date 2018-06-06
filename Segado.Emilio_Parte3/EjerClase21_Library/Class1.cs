@@ -64,8 +64,7 @@ namespace EjerClase21_Library
                 connectionSQL.Open(); //Esto requiere el objeto instanciado, abre la conexion a la base de datos
                 /*A partir de aqui se debe usar el lenguaje de SQL*/
                 SqlCommand comandosSQL = new SqlCommand("SELECT [id],[nombre],[apellido],[edad] FROM [Padron].[dbo].[Personas]", connectionSQL); //Pide string a ejecutar (los comandos de consulta de SQL en modo de cadena) y el objeto de conexion
-                SqlDataReader dataReaderSQL = comandosSQL.ExecuteReader(); //No tiene constructor accesible, solo puede asignarse por este comando, ExecuteReader ejecuta el comando que estaba en el parametro al instanciarlo
-
+                SqlDataReader dataReaderSQL = comandosSQL.ExecuteReader(); //No tiene constructor accesible, solo puede asignarse por este comando, ExecuteReader ejecuta el comando que estaba en el parametro al instanciarl*/
 
                 while (dataReaderSQL.Read()) //Mientras el dataReader tenga objetos para leer
                 {
@@ -82,6 +81,119 @@ namespace EjerClase21_Library
 
             return listaRetorno;
         }
+
+        public Boolean Agregar()
+        {
+            Boolean retorno = false;
+            SqlConnection connectionSQL = new SqlConnection(Properties.Settings.Default.conexion); //Se instancia el SqlConnection para poder utilizar la base
+            try
+            {
+                connectionSQL.Open(); //Se abre la conexción con la base
+
+                SqlCommand comandosSQL = new SqlCommand("INSERT into [Padron].[dbo].[Personas]([nombre],[apellido],[edad]) VALUES ('" + this.Nombre + "','" + this.Apellido + "'," + this.Edad + ")", connectionSQL); //Se instancia el objeto capaz de ejecutar comandos, pero se cambia la orden, siendo esta vez usada para agregar algo, no para traer, si el atributo es de tipo string, requiere '' y "".
+                int registrosAfectados = comandosSQL.ExecuteNonQuery(); //Ejecutar algo que no es una consulta, devuelve la cantidad de registros afectados
+
+                if (registrosAfectados > 0)
+                {/*Se deben cerrar ambas conexiones o habrà problema al intentar volver a leerlos*/
+                 //Luego la conexión con la base de datos
+                    retorno = true;
+                }
+            }
+            catch (Exception e) { }
+            finally { connectionSQL.Close(); }
+            return retorno;
+        }
+
+        public static Boolean Borrar(Persona persona1)
+        {
+            Boolean retorno = false;
+            SqlConnection connectionSQL = new SqlConnection(Properties.Settings.Default.conexion); //Se instancia el SqlConnection para poder utilizar la base
+
+            try
+            {
+                connectionSQL.Open(); //Se abre la conexción con la base
+
+                SqlCommand comandosSQL = new SqlCommand("DELETE FROM [Padron].[dbo].[Personas] WHERE [id] = " + persona1.Id, connectionSQL); //Se instancia el objeto capaz de ejecutar comandos, pero se cambia la orden, siendo esta vez usada para borrar datos
+                /*DELETE borra todo el registro completo, sin importar el campo. De no tener con condicion WHERE, borra TODA LA BASE*/
+
+                int registrosAfectados = comandosSQL.ExecuteNonQuery();
+                //Console.WriteLine("RegistrosAfectados: {0}", registrosAfectados);
+
+                if (registrosAfectados > 0)
+                { retorno = true; }
+            }
+            catch (Exception e) { }
+            finally { connectionSQL.Close(); }
+            return retorno;
+        }
+
+        public Boolean Modificar()
+        {
+            Boolean retorno = false;
+            SqlConnection connectionSQL = new SqlConnection(Properties.Settings.Default.conexion); //Se instancia el SqlConnection para poder utilizar la base
+
+            try
+            {
+                connectionSQL.Open(); //Se abre la conexción con la base
+
+                SqlCommand comandosSQL = new SqlCommand("UPDATE [Padron].[dbo].[Personas] SET [nombre] = '" + this.Nombre + "', [apellido] = '" + this.Apellido + "' , [edad] = " + this.Edad + " WHERE [id] = 15", connectionSQL); //Se instancia el objeto capaz de ejecutar comandos, pero se cambia la orden, siendo esta vez usada para actualizar datos
+                /*UPDATE cambia datos del registro, SET es quien hace los cambios. De nuevo, sin la condición, va a cambiar TODOS LOS REGISTROS DE LA BASE*/
+
+                int registrosAfectados = comandosSQL.ExecuteNonQuery();
+                //Console.WriteLine("RegistrosAfectados: {0}", registrosAfectados);
+
+                if (registrosAfectados > 0) { retorno = true; }
+            }
+            catch (Exception e) { }
+            finally { connectionSQL.Close(); }
+            return retorno;
+        }
+
+        public static Persona TraerTodos(int id) //Version de 1 parametro, traer la persona con el ID pasado por parametro.
+        {
+            Persona retorno = null;
+            SqlConnection connectionSQL = new SqlConnection(Properties.Settings.Default.conexion);
+
+            try
+            {
+                connectionSQL.Open();
+
+                SqlCommand comandosSQL = new SqlCommand("SELECT * [id],[nombre],[apellido],[edad] FROM [Padron].[dbo].[Personas] WHERE [id] = " + id, connectionSQL); //Selecciona todo los registros que cumplen con la condición pedida, puede ser uno, muchos o ninguno
+                SqlDataReader dataReaderSQL = comandosSQL.ExecuteReader();
+
+                while (dataReaderSQL.Read())
+                { retorno = new Persona(((int)dataReaderSQL["id"]), dataReaderSQL["nombre"].ToString(), dataReaderSQL["apellido"].ToString(), ((int)dataReaderSQL["edad"])); }
+
+                dataReaderSQL.Close();
+            }
+            catch (Exception e) { }
+            finally { connectionSQL.Close(); }
+
+            return retorno;
+        }
+
+        public static DataTable TraerTodosTabla()
+        {
+            DataTable tablaRetorno = new DataTable("Personas"); //Permite tener una base de datos en memoria, sin depender del servidor de base de datos
+            SqlConnection connectionSQL = new SqlConnection(Properties.Settings.Default.conexion);
+
+            try
+            {
+                connectionSQL.Open();
+
+                SqlCommand comandosSQL = new SqlCommand("SELECT [id],[nombre],[apellido],[edad] FROM [Padron].[dbo].[Personas]", connectionSQL); //Se traen todos los registros, al igual que con la lista de personas
+                SqlDataReader dataReaderSQL = comandosSQL.ExecuteReader();
+
+                tablaRetorno.Load(dataReaderSQL); //Esto hace todo el proceso automatico de trasladar lo obtenido del DataReader al DataTable
+
+                dataReaderSQL.Close(); //Primero el SqlDataReader                
+            }
+            catch (Exception e) { Console.WriteLine(e.Message); }
+            finally { connectionSQL.Close(); }
+
+            return tablaRetorno;
+        }
+
         #endregion
 
         #region "Sobrecargas"
