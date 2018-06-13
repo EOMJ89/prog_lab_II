@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase23_Eventos", "EjerClase23_Eventos\EjerClase23_Eventos.csproj", "{599005B2-967F-4C41-A685-96E337F50169}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase23_Eventos_Calculadora", "EjerClase23_Eventos_Calculadora\EjerClase23_Eventos_Calculadora.csproj", "{924C735C-29CB-427B-898B-D7DBCFD61F00}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase23_Eventos_Calculadora_ClassLibrary", "EjerClase23_Eventos_Calculadora_ClassLibrary\EjerClase23_Eventos_Calculadora_ClassLibrary.csproj", "{AD88E26C-EB25-4876-8F53-6CD6C03D9133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase24_Delegados_ClassLibrary", "EjerClase24_Delegados_ClassLibrary\EjerClase24_Delegados_ClassLibrary.csproj", "{5677E6E4-9186-411A-9688-78EAAC3ABDA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase24_Delegados_Exe", "EjerClase24_Delegados_Exe\EjerClase24_Delegados_Exe.csproj", "{BCA258CE-853D-49E0-891C-C415B2E94BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase24_Delegados_WindowsForm", "EjerClase24_Delegados_WindowsForm\EjerClase24_Delegados_WindowsForm.csproj", "{2D361777-093F-4181-9FA5-A03BCF076EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjerClase24_Del_WForms_Main", "EjerClase24_Del_WForms_Main\EjerClase24_Del_WForms_Main.csproj", "{EA96A0E6-3B11-4EC2-BC6E-BE55A4CABFC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,22 @@ Global
 		{AD88E26C-EB25-4876-8F53-6CD6C03D9133}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD88E26C-EB25-4876-8F53-6CD6C03D9133}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD88E26C-EB25-4876-8F53-6CD6C03D9133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5677E6E4-9186-411A-9688-78EAAC3ABDA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5677E6E4-9186-411A-9688-78EAAC3ABDA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5677E6E4-9186-411A-9688-78EAAC3ABDA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5677E6E4-9186-411A-9688-78EAAC3ABDA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCA258CE-853D-49E0-891C-C415B2E94BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCA258CE-853D-49E0-891C-C415B2E94BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCA258CE-853D-49E0-891C-C415B2E94BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCA258CE-853D-49E0-891C-C415B2E94BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D361777-093F-4181-9FA5-A03BCF076EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D361777-093F-4181-9FA5-A03BCF076EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D361777-093F-4181-9FA5-A03BCF076EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D361777-093F-4181-9FA5-A03BCF076EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA96A0E6-3B11-4EC2-BC6E-BE55A4CABFC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA96A0E6-3B11-4EC2-BC6E-BE55A4CABFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA96A0E6-3B11-4EC2-BC6E-BE55A4CABFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA96A0E6-3B11-4EC2-BC6E-BE55A4CABFC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
