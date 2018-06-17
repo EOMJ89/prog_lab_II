@@ -63,7 +63,7 @@ namespace EjerClase24_Delegados_ClassLibrary
         #endregion
 
         #region "Eventos"
-        //Declaran los eventos como variables0, toman el nombre del delegado para como tipo de delegado y un nombre de variable para el evento que sucede
+        //Declaran los eventos como variables, toman el nombre del delegado para como tipo de delegado y un nombre de variable para el evento que sucede
         public event DelegadoSueldoCero SueldoCero;
 
         public event DelegadoLimiteSueldo SueldoMaximo;
